@@ -80,6 +80,52 @@ This document provides comprehensive comparison tables for different aquarium te
 | OpenSprinkler | ESP8266/32 | 5-8 | WiFi | Intermediate | Irrigation | 24VAC | $50-150 |
 | Reef Angel | Arduino | 10+ | USB/Display | Intermediate | Reef Control | 12V/2A | $80-200 |
 
+## Water Chemistry Management Comparison
+
+| Project | Function | Hardware | Connectivity | Automation Level | Platform | Cost Range | Maintenance |
+|---------|----------|----------|--------------|------------------|----------|------------|-------------|
+| Automated Dosing System | Chemical Dosing | Peristaltic pumps, sensors, controller | WiFi/MQTT | High | ESP32/RPi | $100-300 | Weekly |
+| pH Buffering System | pH Stabilization | pH sensors, chemical pumps | WiFi/MQTT | High | ESP32/RPi | $80-200 | Daily |
+| Alkalinity Manager | Alk Management | Alk test integration, pumps | WiFi/MQTT | Medium | RPi | $150-400 | Weekly |
+| Nutrient Control | Nutrient Control | Multiple sensors, pumps | WiFi/MQTT | High | RPi | $200-500 | Weekly |
+| RO Controller | Water Purification | RO components, sensors | WiFi | Medium | ESP32 | $100-250 | Monthly |
+
+## Biological Filtration Systems Comparison
+
+| Project | Function | Sensors | Automation Level | Platform | Cost Range | Maintenance |
+|---------|----------|---------|------------------|----------|------------|-------------|
+| Biofilter Monitor | Filter Efficiency | Ammonia, nitrite, nitrate | Low | ESP32/RPi | $50-150 | Weekly |
+| Bacteria Cultivation | Bacteria Growth | Temperature, oxygen | Medium | Arduino/RPi | $40-120 | Daily |
+| Skimmer Controller | Skimming Control | Flow, bubble sensors | Medium | ESP32 | $60-180 | Weekly |
+| UV Automation | Sterilization | Flow, timer | Medium | ESP32 | $70-200 | Monthly |
+
+## Aquatic Plant Care Systems Comparison
+
+| Project | Function | Sensors | Controls | Platform | Cost Range | Maintenance |
+|---------|----------|---------|----------|----------|------------|-------------|
+| CO2 Controller | CO2 Injection | pH, pressure | Solenoids, pumps | ESP32 | $40-120 | Daily |
+| Fertilization System | Nutrient Dosing | pH, TDS | Pumps, valves | RPi/ESP32 | $100-300 | Weekly |
+| Growth Monitor | Plant Health | Cameras, light | Data logging | RPi | $80-200 | Low |
+| Algae Prevention | Algae Control | Light, nutrient | Lights, UV | ESP32/RPi | $60-180 | Weekly |
+
+## Emergency and Safety Systems Comparison
+
+| Project | Function | Response Type | Sensors | Platform | Cost Range | Reliability |
+|---------|----------|---------------|---------|----------|------------|-------------|
+| Leak Detection | Water Detection | Automatic shutoff | Water sensors | ESP32/Arduino | $30-100 | High |
+| Overflow Prevention | Water Level | Pump shutoff | Level sensors | ESP32/Arduino | $25-80 | High |
+| Power Monitor | Power Loss | Backup activation | Power sensors | ESP32/Arduino | $20-70 | Medium |
+| Emergency Aeration | Oxygen Supply | Automatic activation | Oxygen sensors | Arduino/ESP32 | $35-120 | Medium |
+
+## Energy Management Comparison
+
+| Project | Function | Measurement | Control | Platform | Cost Range | Savings |
+|---------|----------|-------------|---------|----------|------------|---------|
+| Power Monitor | Consumption | Current, voltage | Logging | ESP32/Arduino | $25-80 | 10-20% |
+| Smart Power Strip | Outlet Control | Power draw | Individual relays | ESP32 | $40-150 | 15-25% |
+| Energy Automation | Optimization | Multiple | Scheduling | RPi | $80-200 | 20-30% |
+| Solar System | Renewable | Solar, battery | Load management | Arduino/RPi | $200-600 | 50-90% |
+
 ## Specialized Tools Comparison
 
 | Tool | Primary Use | Platform | Language | License | Complexity | Price |

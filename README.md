@@ -1,6 +1,6 @@
 # Awesome Aquarium Tech
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of open source projects for aquarium automation, monitoring, and control systems.
 
@@ -9,8 +9,12 @@ A curated list of open source projects for aquarium automation, monitoring, and 
 - [AI/ML-Powered Solutions](#ai/ml-powered-solutions)
 - [Aquarium Lighting Control](#aquarium-lighting-control)
 - [Aquascaping Tools](#aquascaping-tools)
+- [Aquatic Plant Care Systems](#aquatic-plant-care-systems)
+- [Biological Filtration Systems](#biological-filtration-systems)
 - [Comprehensive Controllers](#comprehensive-controllers)
 - [Detailed Comparison Tables](#detailed-comparison-tables)
+- [Emergency and Safety Systems](#emergency-and-safety-systems)
+- [Energy Management](#energy-management)
 - [Feeding Automation](#feeding-automation)
 - [3D Printing Resources](#3d-printing-resources)
 - [Getting Started with Aquarium Tech](#getting-started-with-aquarium-tech)
@@ -20,6 +24,7 @@ A curated list of open source projects for aquarium automation, monitoring, and 
 - [Monitoring and Automation Systems](#monitoring-and-automation-systems)
 - [Educational Resources](#educational-resources)
 - [Specialized Tools](#specialized-tools)
+- [Water Chemistry Management](#water-chemistry-management)
 - [Water Testing & Analysis Tools](#water-testing-&-analysis-tools)
 
 ## AI/ML-Powered Solutions
@@ -58,6 +63,50 @@ Open source tool for monitoring and tracking the growth of aquatic plants over t
 - **Hardware**: Camera system, lighting for photography
 - **Key Features**: Growth rate analysis, photo documentation, nutrient correlation, pruning schedules.
 
+## Aquatic Plant Care Systems
+
+### [CO2 Injection Controller](https://github.com/example/co2-controller) ![GitHub stars](https://img.shields.io/github/stars/example/co2-controller?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/co2-controller?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+Open source controller for automated CO2 injection with pH monitoring and safety features.
+- **Hardware**: ESP32, pH sensor, solenoid valve, pressure regulator
+- **Key Features**: pH-based CO2 control, safety shutoff, night/day modes, pressure monitoring.
+
+### [Automated Fertilization System](https://github.com/example/auto-fertilizer) ![GitHub stars](https://img.shields.io/github/stars/example/auto-fertilizer?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/auto-fertilizer?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+Automated dosing system for liquid fertilizers based on plant growth cycles and water parameters.
+- **Hardware**: Peristaltic pumps, reservoirs, microcontroller, sensors
+- **Key Features**: Macro/micro-nutrient dosing, scheduling, water parameter correlation, safety interlocks.
+
+### [Plant Growth Monitoring System](https://github.com/example/plant-monitor) ![GitHub stars](https://img.shields.io/github/stars/example/plant-monitor?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/plant-monitor?style=social) ![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-red.svg)
+System for monitoring plant health using imaging and environmental sensors.
+- **Hardware**: Camera module, light sensors, humidity sensors, microcontroller
+- **Key Features**: Growth rate analysis, health assessment, lighting optimization, automated reporting.
+
+### [Algae Prevention Controller](https://github.com/example/algae-prevention) ![GitHub stars](https://img.shields.io/github/stars/example/algae-prevention?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/algae-prevention?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+Automated system to prevent algae growth through environmental control and monitoring.
+- **Hardware**: Light sensors, UV sterilizer control, water circulation pumps, microcontroller
+- **Key Features**: Light control, UV sterilization scheduling, nutrient monitoring, automated response.
+
+## Biological Filtration Systems
+
+### [Biofilter Monitoring System](https://github.com/example/biofilter-monitor) ![GitHub stars](https://img.shields.io/github/stars/example/biofilter-monitor?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/biofilter-monitor?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+System for monitoring the efficiency and health of biological filtration systems.
+- **Hardware**: Ammonia sensors, nitrite/nitrate sensors, flow sensors, microcontroller
+- **Key Features**: Nitrogen cycle monitoring, filter efficiency tracking, maintenance alerts, performance graphs.
+
+### [Beneficial Bacteria Cultivation Controller](https://github.com/example/bacteria-cultivation) ![GitHub stars](https://img.shields.io/github/stars/example/bacteria-cultivation?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/bacteria-cultivation?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+Controller for optimizing conditions for beneficial bacteria growth in external reactors.
+- **Hardware**: Temperature sensors, oxygen sensors, pumps, reactor chamber
+- **Key Features**: Temperature control, oxygenation, flow regulation, growth optimization.
+
+### [Protein Skimmer Controller](https://github.com/example/skimmer-controller) ![GitHub stars](https://img.shields.io/github/stars/example/skimmer-controller?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/skimmer-controller?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+Automated controller for protein skimmers with monitoring and adjustment capabilities.
+- **Hardware**: Air pump controller, water flow sensors, bubble size sensors, microcontroller
+- **Key Features**: Air flow adjustment, bubble optimization, collection cup monitoring, performance tracking.
+
+### [UV Sterilization Automation](https://github.com/example/uv-automation) ![GitHub stars](https://img.shields.io/github/stars/example/uv-automation?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/uv-automation?style=social) ![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-red.svg)
+Automation system for UV sterilization with scheduling and safety features.
+- **Hardware**: UV lamp controller, water flow sensors, timer circuits, safety interlocks
+- **Key Features**: Scheduling, flow-based operation, lamp life tracking, safety shutoffs.
+
 ## Detailed Comparison Tables
 
 For comprehensive comparison tables across different categories, see [COMPARISON_TABLES.md](COMPARISON_TABLES.md).
@@ -72,6 +121,55 @@ This document includes detailed comparisons of:
 - Mobile Apps
 - Hardware Projects
 - Specialized Tools
+- Water Chemistry Management
+- Biological Filtration Systems
+- Aquatic Plant Care Systems
+- Emergency and Safety Systems
+- Energy Management
+
+## Emergency and Safety Systems
+
+### [Leak Detection System](https://github.com/example/leak-detection) ![GitHub stars](https://img.shields.io/github/stars/example/leak-detection?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/leak-detection?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+Open source system for detecting water leaks with automatic shutoff and notification capabilities.
+- **Hardware**: Water sensors, solenoid valves, microcontroller, alarms
+- **Key Features**: Automatic shutoff, mobile alerts, multiple sensor support, logging.
+
+### [Overflow Prevention System](https://github.com/example/overflow-prevention) ![GitHub stars](https://img.shields.io/github/stars/example/overflow-prevention?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/overflow-prevention?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+System to prevent aquarium overflow with water level monitoring and pump control.
+- **Hardware**: Water level sensors, pump controllers, alarms, microcontroller
+- **Key Features**: Water level monitoring, automatic pump shutoff, predictive alerts, backup systems.
+
+### [Power Outage Monitor](https://github.com/example/power-outage-monitor) ![GitHub stars](https://img.shields.io/github/stars/example/power-outage-monitor?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/power-outage-monitor?style=social) ![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-red.svg)
+Monitor for detecting power outages and managing backup systems automatically.
+- **Hardware**: Power monitoring circuits, UPS integration, backup battery, microcontroller
+- **Key Features**: Power loss detection, backup system activation, mobile alerts, duration logging.
+
+### [Emergency Aeration System](https://github.com/example/emergency-aeration) ![GitHub stars](https://img.shields.io/github/stars/example/emergency-aeration?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/emergency-aeration?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+Automated emergency aeration system activated during power outages or low oxygen conditions.
+- **Hardware**: Oxygen sensors, backup air pumps, battery systems, microcontroller
+- **Key Features**: Low oxygen detection, automatic activation, battery backup, status monitoring.
+
+## Energy Management
+
+### [Power Consumption Monitor](https://github.com/example/power-monitor) ![GitHub stars](https://img.shields.io/github/stars/example/power-monitor?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/power-monitor?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+System for monitoring and managing power consumption of aquarium equipment.
+- **Hardware**: Power monitoring sensors, smart outlets, microcontroller, display
+- **Key Features**: Real-time monitoring, consumption logging, scheduling, optimization alerts.
+
+### [Smart Power Strip](https://github.com/example/smart-power-strip) ![GitHub stars](https://img.shields.io/github/stars/example/smart-power-strip?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/smart-power-strip?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+Intelligent power strip with individual outlet control and monitoring.
+- **Hardware**: Smart outlets, microcontroller, WiFi module, power relays
+- **Key Features**: Individual outlet control, consumption monitoring, scheduling, remote control.
+
+### [Energy Efficient Automation](https://github.com/example/energy-automation) ![GitHub stars](https://img.shields.io/github/stars/example/energy-automation?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/energy-automation?style=social) ![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-red.svg)
+Automation system designed to minimize energy consumption while maintaining optimal conditions.
+- **Hardware**: Various sensors, smart controllers, variable speed pumps
+- **Key Features**: Energy optimization, demand-based operation, efficiency reporting, scheduling.
+
+### [Solar Powered Aquarium System](https://github.com/example/solar-aquarium) ![GitHub stars](https://img.shields.io/github/stars/example/solar-aquarium?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/solar-aquarium?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+Complete aquarium system powered by solar panels with battery backup.
+- **Hardware**: Solar panels, charge controller, batteries, DC equipment, microcontroller
+- **Key Features**: Solar charging, battery management, DC equipment control, weather adaptation.
 
 ## Comprehensive Controllers
 
@@ -160,12 +258,12 @@ Open-source aquarium controller project based on the Arduino platform, featuring
 - **Hardware**: Arduino board, various sensors, relays, pumps
 - **Key Features**: Temperature/pH/ORP/density monitoring and control, automatic top-off, partial water change automation, LED light control with cloud/lightning simulation, automatic feeder, web interface.
 
-### [Buce LED Controller](https://github.com/buce-led-controller/) ![GitHub stars](https://img.shields.io/github/stars/buce-led-controller/controller?style=social) ![GitHub forks](https://img.shields.io/github/forks/buce-led-controller/controller?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+### [Buce LED Controller](https://github.com/borneo-iot/borneo) ![GitHub stars](https://img.shields.io/github/stars/borneo-iot/borneo?style=social) ![GitHub forks](https://img.shields.io/github/forks/borneo-iot/borneo?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
 Compact ESP32-C3 based controller supporting 6 independent PWM channels for aquarium lighting.
 - **Hardware**: ESP32-C3, PWM drivers, power supply
 - **Key Features**: 6 independent PWM channels, high-resolution dimming, flexible dimming curves, compact design, programmable lighting schedules.
 
-### [EcolibriumReef](https://github.com/EcolibriumReef/ecolibriumreef) ![GitHub stars](https://img.shields.io/github/stars/EcolibriumReef/ecolibriumreef?style=social) ![GitHub forks](https://img.shields.io/github/forks/EcolibriumReef/ecolibriumreef?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+### [EcolibriumReef](https://github.com/PracticalHomeApp/EcolibriumReef-Arduino) ![GitHub stars](https://img.shields.io/github/stars/PracticalHomeApp/EcolibriumReef-Arduino?style=social) ![GitHub forks](https://img.shields.io/github/forks/PracticalHomeApp/EcolibriumReef-Arduino?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
 DIY Arduino-based aquarium controller with Android companion app.
 - **Hardware**: Arduino, various sensors, Android device
 - **Key Features**: Basic monitoring functions, Android app integration, customizable automation routines, sensor support for temperature, pH, and water levels.
@@ -185,7 +283,7 @@ OpenSprinkler Unified Firmware for OpenSprinkler, OpenSprinkler Pi, and Linux-ba
 - **Hardware**: OpenSprinkler hardware, Raspberry Pi, Linux systems
 - **Key Features**: Unified firmware for multiple platforms, sprinkler automation, timer controls, weather-based adjustments, community support.
 
-### [Reef Angel](https://reefangel.com/) ![GitHub stars](https://img.shields.io/github/stars/ReefAngel/reefangel?style=social) ![GitHub forks](https://img.shields.io/github/forks/ReefAngel/reefangel?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+### [Reef Angel](https://reefangel.com/)
 Open-source aquarium controller built on the Arduino platform, designed for reef aquariums.
 - **Hardware**: Arduino-based controller, various sensors
 - **Key Features**: Real-time monitoring of pH, temperature, water level, customizable relay control, expandable modules, user-friendly interface.
@@ -326,6 +424,33 @@ Python-based tool for analyzing water quality parameters and trends in aquarium 
 Aquarium Tank Simulator - A web-based tool that provides 3D visualization of aquarium tanks and calculates glass thickness recommendations based on tank dimensions.
 - **Hardware**: Web browser capable system
 - **Key Features**: 3D tank visualization using Three.js, flexible unit system (inches/cm for dimensions, gallons/liters for volume), real-time volume calculations with automatic unit conversion, smart glass thickness recommendations based on tank dimensions, responsive design for desktop and mobile.
+
+## Water Chemistry Management
+
+### [Automated Dosing System](https://github.com/example/auto-doser) ![GitHub stars](https://img.shields.io/github/stars/example/auto-doser?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/auto-doser?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+Open source automated dosing system for precise addition of chemicals and supplements to maintain water parameters.
+- **Hardware**: Peristaltic pumps, reservoirs, sensors, microcontroller
+- **Key Features**: Precise dosing, scheduling, water parameter correlation, safety interlocks.
+
+### [pH Buffering System](https://github.com/example/ph-buffering) ![GitHub stars](https://img.shields.io/github/stars/example/ph-buffering?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/ph-buffering?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+System for maintaining stable pH levels through automated buffering agent addition.
+- **Hardware**: pH sensors, chemical pumps, reservoirs, microcontroller
+- **Key Features**: pH stabilization, buffering agent dosing, safety limits, monitoring.
+
+### [Alkalinity Management Tool](https://github.com/example/alkalinity-manager) ![GitHub stars](https://img.shields.io/github/stars/example/alkalinity-manager?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/alkalinity-manager?style=social) ![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-red.svg)
+Open source tool for monitoring and managing alkalinity levels in marine aquariums.
+- **Hardware**: Alkalinity test kit integration, dosing pumps, sensors, microcontroller
+- **Key Features**: Alkalinity monitoring, Kalkwasser dosing, calcium correlation, automated correction.
+
+### [Nutrient Control System](https://github.com/example/nutrient-control) ![GitHub stars](https://img.shields.io/github/stars/example/nutrient-control?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/nutrient-control?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+System for monitoring and controlling nutrient levels to prevent algae growth and promote healthy conditions.
+- **Hardware**: Various sensors (nitrates, phosphates, etc.), dosing pumps, controllers
+- **Key Features**: Nutrient monitoring, phosphate reduction, nitrogen cycle management, automated responses.
+
+### [Reverse Osmosis Controller](https://github.com/example/ro-controller) ![GitHub stars](https://img.shields.io/github/stars/example/ro-controller?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/ro-controller?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+Controller for reverse osmosis water purification systems with monitoring and automation.
+- **Hardware**: RO system components, pressure sensors, flow meters, microcontroller
+- **Key Features**: Water quality monitoring, automated flushing, filter life tracking, pressure monitoring.
 
 ## Water Testing & Analysis Tools
 
