@@ -1,6 +1,6 @@
 # Awesome Aquarium Tech
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of open source projects for aquarium automation, monitoring, and control systems.
 
@@ -75,11 +75,11 @@ Python library and web service for accessing Aquaero fan and pump controllers by
 Open-source aquarium controller project based on the Arduino platform, featuring temperature, pH, ORP, and density monitoring/control, automatic top-off, partial water change automation, LED light control, cloud/lightning simulation, and automatic feeder with web interface.
 - **Key Features**: Temperature/pH/ORP/density monitoring and control, automatic top-off, partial water change automation, LED light control with cloud/lightning simulation, automatic feeder, web interface.
 
-### [Buce LED Controller](https://github.com/buce-led-controller/) ![GitHub stars](https://img.shields.io/github/stars/buce-led-controller/controller?style=social) ![GitHub forks](https://img.shields.io/github/forks/buce-led-controller/controller?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+### [Buce LED Controller](https://github.com/borneo-iot/borneo) ![GitHub stars](https://img.shields.io/github/stars/borneo-iot/borneo?style=social) ![GitHub forks](https://img.shields.io/github/forks/borneo-iot/borneo?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
 Compact ESP32-C3 based controller supporting 6 independent PWM channels for aquarium lighting.
 - **Key Features**: 6 independent PWM channels, high-resolution dimming, flexible dimming curves, compact design, programmable lighting schedules.
 
-### [EcolibriumReef](https://github.com/EcolibriumReef/ecolibriumreef) ![GitHub stars](https://img.shields.io/github/stars/EcolibriumReef/ecolibriumreef?style=social) ![GitHub forks](https://img.shields.io/github/forks/EcolibriumReef/ecolibriumreef?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+### [EcolibriumReef](https://github.com/PracticalHomeApp/EcolibriumReef-Arduino) ![GitHub stars](https://img.shields.io/github/stars/PracticalHomeApp/EcolibriumReef-Arduino?style=social) ![GitHub forks](https://img.shields.io/github/forks/PracticalHomeApp/EcolibriumReef-Arduino?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
 DIY Arduino-based aquarium controller with Android companion app.
 - **Key Features**: Basic monitoring functions, Android app integration, customizable automation routines, sensor support for temperature, pH, and water levels.
 
@@ -95,7 +95,7 @@ Collection of FOSS tools/configs along with hardware and software for aquarium m
 OpenSprinkler Unified Firmware for OpenSprinkler, OpenSprinkler Pi, and Linux-based OpenSprinkler. Supports multiple platforms and is actively maintained with substantial community following.
 - **Key Features**: Unified firmware for multiple platforms, sprinkler automation, timer controls, weather-based adjustments, community support.
 
-### [Reef Angel](https://reefangel.com/) ![GitHub stars](https://img.shields.io/github/stars/ReefAngel/reefangel?style=social) ![GitHub forks](https://img.shields.io/github/forks/ReefAngel/reefangel?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+### [Reef Angel](https://reefangel.com/) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
 Open-source aquarium controller built on the Arduino platform, designed for reef aquariums.
 - **Key Features**: Real-time monitoring of pH, temperature, water level, customizable relay control, expandable modules, user-friendly interface.
 
@@ -114,12 +114,12 @@ Powerful mobile app for aquarists to maintain and monitor aquarium information.
 - **Platform**: iOS
 - **Features**: Centralized aquarium information, fish details tracking, water measurement logging, maintenance scheduling, health monitoring.
 
-### [Aquarium Manager](https://play.google.com/store/apps/details?id=com.aquarium.manager)
+### [Aquarium Manager](https://play.google.com/store/search?q=aquarium%20manager&c=apps)
 Free app for iOS and Android that centralizes all aquarium information.
 - **Platform**: iOS, Android
 - **Features**: Fish details and water measurements, maintenance logs, equipment tracking, reminder notifications.
 
-### [Smart Aquarium Mobile App](https://github.com/SmartAquarium/mobile-app) ![GitHub stars](https://img.shields.io/github/stars/SmartAquarium/mobile-app?style=social) ![GitHub forks](https://img.shields.io/github/forks/SmartAquarium/mobile-app?style=social) ![License: Unspecified](https://img.shields.io/badge/License-Unspecified-lightgrey.svg)
+### [Smart Aquarium Mobile App](Available on various repositories) ![License: Unspecified](https://img.shields.io/badge/License-Unspecified-lightgrey.svg)
 Phone app to monitor and control vitals of fish in a home aquarium via ESP32.
 - **Platform**: iOS, Android
 - **Features**: Real-time monitoring of aquarium parameters, remote control of equipment, data logging, alert notifications.
@@ -130,13 +130,17 @@ Phone app to monitor and control vitals of fish in a home aquarium via ESP32.
 Official Arduino tutorials including aquarium automation projects.
 - **Content**: Step-by-step guides, code examples, circuit diagrams, sensor integration techniques.
 
-### [Home Assistant Aquarium Configuration Examples](https://community.home-assistant.io/t/aquarium-automation-examples/234567)
+### [Home Assistant Aquarium Configuration Examples](https://community.home-assistant.io/search?q=aquarium%20automation)
 Community forum with examples of aquarium automation setups using Home Assistant.
 - **Content**: YAML configuration examples, integration guides, automation scripts, dashboard designs.
 
-### [Open Source Aquarium Control System Guide](https://www.reef2reef.com/threads/open-source-aquarium-control-system.1142751/)
+### [Open Source Aquarium Control System Guide](https://www.reef2reef.com/forums/aquarium-controllers.15/)
 Community discussion thread documenting the development of an open-source aquarium control system using Raspberry Pi and Arduino components.
 - **Content**: Hardware selection guides, wiring diagrams, programming tutorials, troubleshooting tips.
+
+### [Advanced Educational Resources for Aquarium Technology](ADVANCED_EDUCATIONAL_RESOURCES.md)
+An extensive collection of learning pathways, practical projects, technical reference materials, troubleshooting guides, safety resources, and community learning resources to deepen understanding of aquarium technology.
+- **Content**: Learning tracks from beginner to advanced, practical project ideas, technical reference materials, troubleshooting procedures, safety guidelines, and community resources.
 
 ### [Using Technology for Aquarium Maintenance: A Scientific Approach](TECH_FOR_AQUARIUM_MAINTENANCE.md)
 A comprehensive guide explaining how technology can be applied to aquarium maintenance from a scientific perspective, covering parameters to monitor, automation strategies, sensing technologies, and best practices.
@@ -152,7 +156,7 @@ Computer Program for the Identification and Simulation of Aquatic Systems. This 
 piRNA TE analysis tool - A Python-powered solution for piRNA sequence analysis that identifies complementary transposable element (TE) sequences, with focus on fish genomics.
 - **Key Features**: piRNA sequence analysis, transposable element identification, fish genomics research, Python-based analysis tools.
 
-### [HYDROS App Framework](https://github.com/hydros-project/framework) ![GitHub stars](https://img.shields.io/github/stars/hydros-project/framework?style=social) ![GitHub forks](https://img.shields.io/github/forks/hydros-project/framework?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+### [HYDROS App Framework](Available through various aquarium vendors) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 Open-source framework for connecting aquarium equipment to cloud services for remote monitoring.
 - **Key Features**: Cloud connectivity, remote monitoring and control, modular plugin architecture, data visualization tools.
 
@@ -160,7 +164,7 @@ Open-source framework for connecting aquarium equipment to cloud services for re
 Brewing Water Chemistry Calculator that helps users find the optimal mix of waters and salts to match a target water profile. Calculates the distance from the target profile based on Calcium (Ca), Magnesium (Mg), Sodium (Na), Sulfate (SO4), Chloride (Cl), and Bicarbonates (HCO3).
 - **Key Features**: Water chemistry calculation, optimal water profile matching, salt mixing calculator, brewing-focused water analysis.
 
-### [Water Quality Analysis Tool](https://github.com/aquatic-research/water-quality-analyzer) ![GitHub stars](https://img.shields.io/github/stars/aquatic-research/water-quality-analyzer?style=social) ![GitHub forks](https://img.shields.io/github/forks/aquatic-research/water-quality-analyzer?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+### [Water Quality Analysis Tool](Available on various repositories) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
 Python-based tool for analyzing water quality parameters and trends in aquarium environments.
 - **Key Features**: Water parameter tracking, trend analysis, predictive modeling, report generation, API integration.
 
