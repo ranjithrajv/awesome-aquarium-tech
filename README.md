@@ -126,9 +126,25 @@ Phone app to monitor and control vitals of fish in a home aquarium via ESP32.
 
 ## Educational Resources
 
+### [Academic Papers on Aquarium Technology](https://scholar.google.com/scholar?q=aquarium+technology+automation)
+Peer-reviewed research papers exploring the intersection of technology and aquarium science.
+- **Content**: Studies on water quality monitoring systems, automated feeding efficiency, sensor accuracy, and environmental control systems.
+
+### [Advanced Educational Resources for Aquarium Technology](ADVANCED_EDUCATIONAL_RESOURCES.md)
+An extensive collection of learning pathways, practical projects, technical reference materials, troubleshooting guides, safety resources, and community learning resources to deepen understanding of aquarium technology.
+- **Content**: Learning tracks from beginner to advanced, practical project ideas, technical reference materials, troubleshooting procedures, safety guidelines, and community resources.
+
 ### [Arduino Aquarium Automation Tutorials](https://www.arduino.cc/en/tutorial/homePage)
 Official Arduino tutorials including aquarium automation projects.
 - **Content**: Step-by-step guides, code examples, circuit diagrams, sensor integration techniques.
+
+### [Books on Aquarium Technology](https://en.wikipedia.org/wiki/List_of_aquarium_books)
+Essential reading for understanding the technical aspects of aquarium keeping and automation.
+- **Content**: Comprehensive guides on water chemistry, equipment selection, automation principles, and system design.
+
+### [Certification Programs in Aquatic Sciences](https://www.asna-aquaria.org/certification/)
+Professional development opportunities for those seeking formal credentials in aquatic sciences and aquarium management.
+- **Content**: Coursework in aquatic biology, water quality management, system design, and safety protocols.
 
 ### [Home Assistant Aquarium Configuration Examples](https://community.home-assistant.io/search?q=aquarium%20automation)
 Community forum with examples of aquarium automation setups using Home Assistant.
@@ -138,13 +154,13 @@ Community forum with examples of aquarium automation setups using Home Assistant
 Community discussion thread documenting the development of an open-source aquarium control system using Raspberry Pi and Arduino components.
 - **Content**: Hardware selection guides, wiring diagrams, programming tutorials, troubleshooting tips.
 
-### [Advanced Educational Resources for Aquarium Technology](ADVANCED_EDUCATIONAL_RESOURCES.md)
-An extensive collection of learning pathways, practical projects, technical reference materials, troubleshooting guides, safety resources, and community learning resources to deepen understanding of aquarium technology.
-- **Content**: Learning tracks from beginner to advanced, practical project ideas, technical reference materials, troubleshooting procedures, safety guidelines, and community resources.
-
 ### [Using Technology for Aquarium Maintenance: A Scientific Approach](TECH_FOR_AQUARIUM_MAINTENANCE.md)
 A comprehensive guide explaining how technology can be applied to aquarium maintenance from a scientific perspective, covering parameters to monitor, automation strategies, sensing technologies, and best practices.
 - **Content**: Water quality parameters, automation solutions, sensing technologies, data management, safety considerations, emerging technologies, and implementation best practices.
+
+### [Video Courses and Tutorials](https://www.youtube.com/results?search_query=aquarium+technology+tutorials)
+Visual learning resources covering various aspects of aquarium technology and automation.
+- **Content**: Step-by-step project builds, equipment reviews, troubleshooting guides, and expert interviews.
 
 ## Specialized Tools
 
