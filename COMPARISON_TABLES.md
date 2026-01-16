@@ -136,3 +136,12 @@ This document provides comprehensive comparison tables for different aquarium te
 | Rabdomante | Water Chem | PC | Python | AGPL-3.0 | Intermediate | Free |
 | Water Analyzer | Analysis | PC | Python | GPL-3.0 | Intermediate | Free |
 | Aqua Simulation | 3D Visualization | Web | JavaScript | Unspecified | Beginner | Free |
+
+## Enhanced Searchability Features Comparison
+
+| Feature | Implementation | Platform | Compatibility | Complexity | Community Support | Maintenance |
+|---------|---------------|----------|---------------|------------|------------------|-------------|
+| Tagging System | Multi-dimensional tags | Web/Doc | All | Low | High | Low |
+| Filter Options | Platform-based filtering | Web/Doc | All | Medium | Medium | Medium |
+| Cross-Referencing | Systematic linking | Doc | All | Medium | High | Medium |
+| Comparison Tools | Side-by-side analysis | Web/Doc | All | Medium | Medium | Medium |
