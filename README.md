@@ -9,11 +9,11 @@ A curated list of open source projects for aquarium automation, monitoring, and 
 - [AI/ML-Powered Solutions](#ai/ml-powered-solutions)
 - [Aquarium Lighting Control](#aquarium-lighting-control)
 - [Aquascaping Tools](#aquascaping-tools)
-- [Comparison Tables](#comparison-tables)
 - [Comprehensive Controllers](#comprehensive-controllers)
+- [Detailed Comparison Tables](#detailed-comparison-tables)
 - [Feeding Automation](#feeding-automation)
 - [3D Printing Resources](#3d-printing-resources)
-- [Getting Started Pathways](#getting-started-pathways)
+- [Getting Started with Aquarium Tech](#getting-started-with-aquarium-tech)
 - [Hardware Projects](#hardware-projects)
 - [Integration Guides](#integration-guides)
 - [Mobile Applications](#mobile-applications)
@@ -58,28 +58,20 @@ Open source tool for monitoring and tracking the growth of aquatic plants over t
 - **Hardware**: Camera system, lighting for photography
 - **Key Features**: Growth rate analysis, photo documentation, nutrient correlation, pruning schedules.
 
-## Comparison Tables
+## Detailed Comparison Tables
 
-### Comprehensive Controllers Comparison
-| Project | Microcontroller | Languages | Features | Difficulty | License |
-|---------|----------------|-----------|----------|------------|---------|
-| reef-pi | Raspberry Pi | Go, Python | Web UI, Camera, Dosing | Intermediate | Apache 2.0 |
-| Marine Assistant | Raspberry Pi | C#, Python | Home Assistant Integration | Intermediate | GPL-3.0 |
-| Aquareo | ESP32 | Arduino/C++ | MQTT, Dosing, Auto-top-off | Intermediate | MIT |
-| Orca | Raspberry Pi | Python | Cloud Interface, Multiple Tanks | Advanced | GPL-3.0 |
+For comprehensive comparison tables across different categories, see [COMPARISON_TABLES.md](COMPARISON_TABLES.md).
 
-### Water Quality Monitoring Systems Comparison
-| Project | Sensors Supported | Connectivity | Data Logging | Automation Support | Platform |
-|---------|------------------|--------------|--------------|-------------------|----------|
-| AquaPi | pH, Temp, Water Level | WiFi, Home Assistant | Yes | Yes | ESP32 |
-| Fish Tank Monitor | pH, Temp, Ammonia | WiFi, Web | Yes | Limited | Raspberry Pi |
-| AquaMonitor | Temp, Light, Power | Arduino, SMS | Yes | No | Arduino |
-
-### Feeding Automation Systems Comparison
-| Project | Dispensing Method | Scheduling | Portion Control | Remote Access | Platform |
-|---------|------------------|------------|---------------|---------------|----------|
-| Automated Fish Feeder | Servo-based | Yes | Yes | Yes | Raspberry Pi |
-| Smart Feeding Robot | Stepper-based | Yes | Adaptive | Yes | ESP32-CAM |
+This document includes detailed comparisons of:
+- Comprehensive Controllers
+- Water Quality Monitoring Systems
+- Feeding Automation Systems
+- Lighting Control Systems
+- AI/ML Solutions
+- 3D Printing Projects
+- Mobile Apps
+- Hardware Projects
+- Specialized Tools
 
 ## Comprehensive Controllers
 
@@ -137,17 +129,19 @@ Collection of 3D printable mounting solutions for aquarium equipment including s
 - **Hardware**: 3D printer, waterproof sealants, mounting hardware
 - **Key Features**: Sensor mounts, pump holders, cable management, adjustable positioning, waterproof designs.
 
-## Getting Started Pathways
+## Getting Started with Aquarium Tech
 
-### [Beginner's First Controller](https://github.com/example/beginner-controller) ![GitHub stars](https://img.shields.io/github/stars/example/beginner-controller?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/beginner-controller?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
-A step-by-step guide and simple code for building your first aquarium controller with Arduino.
-- **Hardware**: Arduino Uno, temperature sensor, relay module, breadboard
-- **Key Features**: Temperature monitoring, heater control, basic web interface, tutorial documentation.
+For comprehensive getting started guides organized by skill level, see [GETTING_STARTED.md](GETTING_STARTED.md).
 
-### [DIY Aquarium Monitoring Kit](https://github.com/example/diy-monitoring-kit) ![GitHub stars](https://img.shields.io/github/stars/example/diy-monitoring-kit?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/diy-monitoring-kit?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-Complete starter kit with hardware list, assembly instructions, and software for basic aquarium monitoring.
-- **Hardware**: ESP32, pH sensor, temperature sensor, power supply
-- **Key Features**: pH and temperature monitoring, mobile app, data logging, alert system.
+This document provides:
+- Beginner pathway (weeks 1-6)
+- Intermediate pathway (months 1-3)
+- Advanced pathway (months 1-6)
+- Essential skills checklist
+- Recommended learning resources
+- Safety considerations
+- Troubleshooting guide
+- Cost planning
 
 ## Hardware Projects
 
@@ -208,20 +202,16 @@ Open source tank platform that includes implementations for ESP32, Raspberry Pi,
 
 ## Integration Guides
 
-### Controller Integration Matrix
-| Controller | Supported Sensors | Communication Protocols | Compatible Platforms |
-|------------|------------------|------------------------|---------------------|
-| reef-pi | Temperature, pH, ORP, TDS | I2C, Serial, GPIO | Raspberry Pi |
-| Marine Assistant | pH, TDS, EC, ORP, Temp | Analog, Digital, GPIO | Raspberry Pi |
-| Aquareo | pH, Temperature, Salinity | I2C, MQTT | ESP32 |
-| Orca | Temperature, Salinity | WiFi, Web API | Raspberry Pi |
+For comprehensive integration guides and compatibility matrices, see [INTEGRATION_GUIDES.md](INTEGRATION_GUIDES.md).
 
-### Home Automation Integration
-| Platform | Integration Method | Supported Devices | Features |
-|----------|-------------------|------------------|----------|
-| Home Assistant | MQTT, REST API | All sensors and actuators | Automation, Dashboards, Notifications |
-| OpenHAB | Bindings, REST API | Most controllers | Rules engine, UI designer |
-| Domoticz | Plugins, HTTP | Many sensors | Dashboards, Logging, Notifications |
+This document includes:
+- Controller integration matrix
+- Home automation integration guides
+- Sensor integration guide
+- Actuator integration guide
+- Network integration options
+- Troubleshooting integration issues
+- Best practices for integration
 
 ## Mobile Applications
 
