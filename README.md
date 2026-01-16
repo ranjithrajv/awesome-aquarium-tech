@@ -9,11 +9,13 @@ A curated list of open source projects for aquarium automation, monitoring, and 
 - [AI/ML-Powered Solutions](#ai/ml-powered-solutions)
 - [Aquarium Lighting Control](#aquarium-lighting-control)
 - [Aquascaping Tools](#aquascaping-tools)
+- [Comparison Tables](#comparison-tables)
 - [Comprehensive Controllers](#comprehensive-controllers)
 - [Feeding Automation](#feeding-automation)
 - [3D Printing Resources](#3d-printing-resources)
 - [Getting Started Pathways](#getting-started-pathways)
 - [Hardware Projects](#hardware-projects)
+- [Integration Guides](#integration-guides)
 - [Mobile Applications](#mobile-applications)
 - [Monitoring and Automation Systems](#monitoring-and-automation-systems)
 - [Educational Resources](#educational-resources)
@@ -55,6 +57,29 @@ Open source software for planning and designing aquarium layouts with 3D visuali
 Open source tool for monitoring and tracking the growth of aquatic plants over time.
 - **Hardware**: Camera system, lighting for photography
 - **Key Features**: Growth rate analysis, photo documentation, nutrient correlation, pruning schedules.
+
+## Comparison Tables
+
+### Comprehensive Controllers Comparison
+| Project | Microcontroller | Languages | Features | Difficulty | License |
+|---------|----------------|-----------|----------|------------|---------|
+| reef-pi | Raspberry Pi | Go, Python | Web UI, Camera, Dosing | Intermediate | Apache 2.0 |
+| Marine Assistant | Raspberry Pi | C#, Python | Home Assistant Integration | Intermediate | GPL-3.0 |
+| Aquareo | ESP32 | Arduino/C++ | MQTT, Dosing, Auto-top-off | Intermediate | MIT |
+| Orca | Raspberry Pi | Python | Cloud Interface, Multiple Tanks | Advanced | GPL-3.0 |
+
+### Water Quality Monitoring Systems Comparison
+| Project | Sensors Supported | Connectivity | Data Logging | Automation Support | Platform |
+|---------|------------------|--------------|--------------|-------------------|----------|
+| AquaPi | pH, Temp, Water Level | WiFi, Home Assistant | Yes | Yes | ESP32 |
+| Fish Tank Monitor | pH, Temp, Ammonia | WiFi, Web | Yes | Limited | Raspberry Pi |
+| AquaMonitor | Temp, Light, Power | Arduino, SMS | Yes | No | Arduino |
+
+### Feeding Automation Systems Comparison
+| Project | Dispensing Method | Scheduling | Portion Control | Remote Access | Platform |
+|---------|------------------|------------|---------------|---------------|----------|
+| Automated Fish Feeder | Servo-based | Yes | Yes | Yes | Raspberry Pi |
+| Smart Feeding Robot | Stepper-based | Yes | Adaptive | Yes | ESP32-CAM |
 
 ## Comprehensive Controllers
 
@@ -180,6 +205,23 @@ IoT-based aquarium automation with timed feeding, temperature monitoring, water 
 Open source tank platform that includes implementations for ESP32, Raspberry Pi, and Arduino. Uses 3D printed parts, plastic tracks, DC motors, L298N motor driver, and supports various microcontrollers.
 - **Hardware**: ESP32/Raspberry Pi/Arduino, 3D printed parts, DC motors, L298N motor driver
 - **Key Features**: Platform implementations for ESP32/Raspberry Pi/Arduino, 3D printed parts, motorized platform, track-based movement, multiple microcontroller support.
+
+## Integration Guides
+
+### Controller Integration Matrix
+| Controller | Supported Sensors | Communication Protocols | Compatible Platforms |
+|------------|------------------|------------------------|---------------------|
+| reef-pi | Temperature, pH, ORP, TDS | I2C, Serial, GPIO | Raspberry Pi |
+| Marine Assistant | pH, TDS, EC, ORP, Temp | Analog, Digital, GPIO | Raspberry Pi |
+| Aquareo | pH, Temperature, Salinity | I2C, MQTT | ESP32 |
+| Orca | Temperature, Salinity | WiFi, Web API | Raspberry Pi |
+
+### Home Automation Integration
+| Platform | Integration Method | Supported Devices | Features |
+|----------|-------------------|------------------|----------|
+| Home Assistant | MQTT, REST API | All sensors and actuators | Automation, Dashboards, Notifications |
+| OpenHAB | Bindings, REST API | Most controllers | Rules engine, UI designer |
+| Domoticz | Plugins, HTTP | Many sensors | Dashboards, Logging, Notifications |
 
 ## Mobile Applications
 
