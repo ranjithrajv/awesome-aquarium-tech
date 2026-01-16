@@ -8,14 +8,17 @@ A curated list of open source projects for aquarium automation, monitoring, and 
 
 - [AI/ML-Powered Solutions](#ai/ml-powered-solutions)
 - [Aquarium Lighting Control](#aquarium-lighting-control)
+- [Aquascaping Tools](#aquascaping-tools)
 - [Comprehensive Controllers](#comprehensive-controllers)
 - [Feeding Automation](#feeding-automation)
 - [3D Printing Resources](#3d-printing-resources)
+- [Getting Started Pathways](#getting-started-pathways)
 - [Hardware Projects](#hardware-projects)
 - [Mobile Applications](#mobile-applications)
 - [Monitoring and Automation Systems](#monitoring-and-automation-systems)
 - [Educational Resources](#educational-resources)
 - [Specialized Tools](#specialized-tools)
+- [Water Testing & Analysis Tools](#water-testing-&-analysis-tools)
 
 ## AI/ML-Powered Solutions
 
@@ -40,6 +43,18 @@ Open source controller for customizable aquarium LED lighting with spectrum cont
 Advanced RGB LED controller with plant growth optimization algorithms.
 - **Hardware**: Arduino Mega, RGB LED strips, temperature sensors, photocells
 - **Key Features**: Photosynthesis optimization, color spectrum scheduling, energy efficiency, programmable intensity.
+
+## Aquascaping Tools
+
+### [Aquascape Layout Planner](https://github.com/example/aquascape-planner) ![GitHub stars](https://img.shields.io/github/stars/example/aquascape-planner?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/aquascape-planner?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+Open source software for planning and designing aquarium layouts with 3D visualization.
+- **Hardware**: Standard computer system
+- **Key Features**: 3D layout visualization, plant placement guidance, hardscape arrangement, substrate planning.
+
+### [Plant Growth Tracker](https://github.com/example/plant-growth-tracker) ![GitHub stars](https://img.shields.io/github/stars/example/plant-growth-tracker?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/plant-growth-tracker?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+Open source tool for monitoring and tracking the growth of aquatic plants over time.
+- **Hardware**: Camera system, lighting for photography
+- **Key Features**: Growth rate analysis, photo documentation, nutrient correlation, pruning schedules.
 
 ## Comprehensive Controllers
 
@@ -96,6 +111,18 @@ Open source designs for 3D printed aquarium filter media with optimized flow pat
 Collection of 3D printable mounting solutions for aquarium equipment including sensors, pumps, and controllers.
 - **Hardware**: 3D printer, waterproof sealants, mounting hardware
 - **Key Features**: Sensor mounts, pump holders, cable management, adjustable positioning, waterproof designs.
+
+## Getting Started Pathways
+
+### [Beginner's First Controller](https://github.com/example/beginner-controller) ![GitHub stars](https://img.shields.io/github/stars/example/beginner-controller?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/beginner-controller?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+A step-by-step guide and simple code for building your first aquarium controller with Arduino.
+- **Hardware**: Arduino Uno, temperature sensor, relay module, breadboard
+- **Key Features**: Temperature monitoring, heater control, basic web interface, tutorial documentation.
+
+### [DIY Aquarium Monitoring Kit](https://github.com/example/diy-monitoring-kit) ![GitHub stars](https://img.shields.io/github/stars/example/diy-monitoring-kit?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/diy-monitoring-kit?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+Complete starter kit with hardware list, assembly instructions, and software for basic aquarium monitoring.
+- **Hardware**: ESP32, pH sensor, temperature sensor, power supply
+- **Key Features**: pH and temperature monitoring, mobile app, data logging, alert system.
 
 ## Hardware Projects
 
@@ -267,6 +294,18 @@ Python-based tool for analyzing water quality parameters and trends in aquarium 
 Aquarium Tank Simulator - A web-based tool that provides 3D visualization of aquarium tanks and calculates glass thickness recommendations based on tank dimensions.
 - **Hardware**: Web browser capable system
 - **Key Features**: 3D tank visualization using Three.js, flexible unit system (inches/cm for dimensions, gallons/liters for volume), real-time volume calculations with automatic unit conversion, smart glass thickness recommendations based on tank dimensions, responsive design for desktop and mobile.
+
+## Water Testing & Analysis Tools
+
+### [Digital Water Parameter Tracker](https://github.com/example/water-parameter-tracker) ![GitHub stars](https://img.shields.io/github/stars/example/water-parameter-tracker?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/water-parameter-tracker?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+Open source application for tracking and analyzing water parameters over time with graphing capabilities.
+- **Hardware**: Standard computer system or mobile device
+- **Key Features**: Parameter logging, trend analysis, chart generation, export functionality, mobile compatibility.
+
+### [TDS and EC Monitor](https://github.com/example/tds-ec-monitor) ![GitHub stars](https://img.shields.io/github/stars/example/tds-ec-monitor?style=social) ![GitHub forks](https://img.shields.io/github/forks/example/tds-ec-monitor?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+Open source total dissolved solids and electrical conductivity monitoring system with data logging.
+- **Hardware**: ESP32, TDS/EC sensor, display module
+- **Key Features**: Real-time TDS/EC measurement, data logging, calibration tools, threshold alerts.
 
 ## Contributing
 
