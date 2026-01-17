@@ -6,27 +6,49 @@ A curated list of open source projects for aquarium automation, monitoring, and 
 
 ## Table of Contents
 
-- [AI/ML-Powered Solutions](#ai/ml-powered-solutions)
-- [Aquarium Lighting Control](#aquarium-lighting-control)
-- [Aquascaping Tools](#aquascaping-tools)
-- [Aquatic Plant Care Systems](#aquatic-plant-care-systems)
-- [Biological Filtration Systems](#biological-filtration-systems)
-- [Comprehensive Controllers](#comprehensive-controllers)
-- [Detailed Comparison Tables](#detailed-comparison-tables)
-- [Emergency and Safety Systems](#emergency-and-safety-systems)
-- [Energy Management](#energy-management)
+### By Function
+- [Comprehensive Control Systems](#comprehensive-controllers)
+- [Monitoring & Data Collection](#monitoring-and-automation-systems)
+- [Automated Control Systems](#comprehensive-controllers)
+- [Safety & Emergency Systems](#emergency-and-safety-systems)
+- [Water Quality Management](#water-chemistry-management)
+- [Life Support Systems](#aquarium-lighting-control)
+- [Infrastructure](#energy-management)
+- [Specialized Tools & Utilities](#specialized-tools)
+
+### By Category
+- [Educational Resources & Learning Pathways](#educational-resources)
 - [Enhanced Searchability Features](#enhanced-searchability-features)
-- [Feeding Automation](#feeding-automation)
-- [3D Printing Resources](#3d-printing-resources)
-- [Getting Started with Aquarium Tech](#getting-started-with-aquarium-tech)
-- [Hardware Projects](#hardware-projects)
-- [Integration Guides](#integration-guides)
-- [Mobile Applications](#mobile-applications)
-- [Monitoring and Automation Systems](#monitoring-and-automation-systems)
-- [Educational Resources](#educational-resources)
-- [Specialized Tools](#specialized-tools)
+
+## Standardized Project Information
+
+To improve consistency and help users make informed decisions, all project entries in this list follow a [standardized format](PROJECT_TEMPLATE.md) that includes essential information like platform requirements, difficulty level, hardware requirements, and key features. This makes it easier to compare projects and understand what's involved before starting implementation.
+
+## Quick Index by Function
+
+### Water Quality Management
 - [Water Chemistry Management](#water-chemistry-management)
+- [Biological Filtration Systems](#biological-filtration-systems)
 - [Water Testing & Analysis Tools](#water-testing-&-analysis-tools)
+- [Aquatic Plant Care Systems](#aquatic-plant-care-systems)
+
+### Life Support Systems
+- [Aquarium Lighting Control](#aquarium-lighting-control)
+- [Feeding Automation](#feeding-automation)
+- [Aquascaping Tools](#aquascaping-tools)
+
+### Safety & Emergency Systems
+- [Emergency and Safety Systems](#emergency-and-safety-systems)
+
+### Infrastructure
+- [Energy Management](#energy-management)
+- [3D Printing Resources](#3d-printing-resources)
+- [Hardware Projects](#hardware-projects)
+
+### Specialized Tools & Utilities
+- [Specialized Tools](#specialized-tools)
+- [Mobile Applications](#mobile-applications)
+- [AI/ML-Powered Solutions](#ai/ml-powered-solutions)
 
 ## AI/ML-Powered Solutions
 

@@ -12,7 +12,36 @@ Next, **verify the project**: Ensure the project has a clear README or documenta
 
 Then, **fork and clone** this repository.
 
-**Add the project** to the appropriate category in `README.md` using the format `[Project Name](URL) - Description.` Include license information, platform details if applicable, list key features in bullet points, and keep descriptions concise (1-2 sentences).
+**Add the project** to the appropriate category in `README.md` using the [standardized format](PROJECT_TEMPLATE.md):
+
+```markdown
+### [Project Name](repository_url) ![GitHub stars](star_badge) ![GitHub forks](fork_badge) ![License: LICENSE_TYPE](license_badge)
+*Short, clear description of what the project does*
+
+- **Platform**: [e.g., Arduino, Raspberry Pi, ESP32, PC-based, Mobile app]
+- **Languages**: [e.g., Arduino/C++, Python, Go, JavaScript]
+- **Hardware Required**: [List of essential hardware components]
+- **Difficulty**: [Beginner, Intermediate, Advanced]
+- **Last Updated**: [Date of last commit or YYYY-MM]
+- **Maintenance Status**: [Active, Inactive, Looking for Maintainer, Archived]
+- **Key Features**:
+  - Feature 1
+  - Feature 2
+  - Feature 3
+- **Community Activity**: [Number of contributors, recent issues/PRs, forum activity]
+- **Documentation Quality**: [Excellent, Good, Basic, Poor]
+- **Installation Complexity**: [Simple, Moderate, Complex]
+- **Ongoing Costs**: [None, Minimal, Moderate, Significant] (e.g., cloud services, consumables)
+- **Pros**:
+  - Advantage 1
+  - Advantage 2
+- **Cons**:
+  - Limitation 1
+  - Limitation 2
+- **Best For**: [Target audience/use case, e.g., reef tanks, freshwater, nano tanks, beginners]
+```
+
+Include license information, platform details if applicable, list key features in bullet points, and keep descriptions concise (1-2 sentences).
 
 **Sort alphabetically** within each category.
 
@@ -33,7 +62,13 @@ Projects should be added to the most appropriate category:
 
 ### Improving Existing Entries
 
-You can help improve existing entries by fixing broken links, updating descriptions if the project has changed significantly, adding missing information (license, features), or improving formatting or grammar.
+You can help improve existing entries by:
+- Updating project information to follow the standardized format
+- Fixing broken links
+- Updating descriptions if the project has changed significantly
+- Adding missing information (license, features, hardware requirements)
+- Improving formatting or grammar
+- Updating maintenance status and last updated information
 
 ### General Guidelines
 
