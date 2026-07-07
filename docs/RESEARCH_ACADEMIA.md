@@ -64,7 +64,7 @@ This document compiles academic papers, research institutions, scientific studie
 - **University of Rhode Island - Graduate School of Oceanography**
   - Focus: Marine ecosystem technology
   - Research Areas: Coral reef systems, water chemistry, conservation
-  - Contact: https://web.uri.edu/gsoe/
+  - Contact: https://web.uri.edu/gso/
   - Notable Projects: Coral propagation systems, ocean acidification studies
 
 - **Woods Hole Oceanographic Institution**

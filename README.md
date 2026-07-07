@@ -215,7 +215,7 @@ This document includes:
 
 - [FishPi](https://github.com/alicegodden/fishpi) - piRNA TE analysis tool - A Python-powered solution for piRNA sequence analysis that identifies complementary transposable element (TE) sequences, with focus on fish genomics.
 
-- [HYDROS App Framework](https://www.hydros.com/) - Open-source framework for connecting aquarium equipment to cloud services for remote monitoring.
+- [HYDROS App Framework](https://www.coralvuehydros.com/control/hydros-systems-app/) - Open-source framework for connecting aquarium equipment to cloud services for remote monitoring.
 
 - [Rabdomante](https://github.com/molok/rabdomante) - Brewing Water Chemistry Calculator that helps users find the optimal mix of waters and salts to match a target water profile. Calculates the distance from the target profile based on Calcium (Ca), Magnesium (Mg), Sodium (Na), Sulfate (SO4), Chloride (Cl), and Bicarbonates (HCO3).
 
@@ -240,7 +240,7 @@ This document includes:
 - Share on [Twitter](https://twitter.com/intent/tweet?text=Awesome%20Aquarium%20Tech%20-%20Open%20source%20aquarium%20automation%20projects&url=https://github.com/ranjithrajv/awesome-aquarium-tech)
 - [Reddit r/aquariums](https://www.reddit.com/r/aquariums/)
 - [Reddit r/reeftank](https://www.reddit.com/r/ReefTank/)
-- [Hackaday](https://hackaday.io/submit)
+- [Hackaday](https://hackaday.io/)
 
 ## Contributing
 
