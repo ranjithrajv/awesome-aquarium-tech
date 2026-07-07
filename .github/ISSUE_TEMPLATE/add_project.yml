@@ -1,0 +1,79 @@
+name: Suggest a Project
+description: Suggest a new open source project to add to this awesome list
+title: "[Project] "
+labels: [project-suggestion]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Project Name
+      description: What is the name of the project?
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Repository URL
+      description: Link to the GitHub/GitLab/etc repository
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A short 1-2 sentence description of what the project does
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which section does this belong in?
+      options:
+        - Comprehensive Controllers
+        - Monitoring and Automation Systems
+        - Hardware Projects
+        - Mobile Applications
+        - Educational Resources
+        - Specialized Tools
+        - Water Chemistry Management
+        - Aquarium Lighting Control
+        - Feeding Automation
+        - AI/ML-Powered Solutions
+        - Other (specify below)
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: e.g., MIT, GPL-3.0, Apache-2.0
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware Required
+      description: What hardware does this project require?
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Requirements
+      description: Please confirm the following
+      options:
+        - label: The project is open source with a clear license
+          required: true
+        - label: The project is related to aquarium technology
+          required: true
+        - label: The repository is actively maintained
+          required: true
+        - label: I have checked the project is not already listed
+          required: true

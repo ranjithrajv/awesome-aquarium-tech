@@ -1,6 +1,10 @@
 # Awesome Aquarium Tech
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ranjithrajv/awesome-aquarium-tech/blob/main/docs/CONTRIBUTING.md)
+[![GitHub contributors](https://img.shields.io/github/contributors/ranjithrajv/awesome-aquarium-tech)](https://github.com/ranjithrajv/awesome-aquarium-tech/graphs/contributors)
+[![GitHub last commit](https://img.shields.io/github/last-commit/ranjithrajv/awesome-aquarium-tech)](https://github.com/ranjithrajv/awesome-aquarium-tech/commits/main)
+[![License: CC0 1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](LICENSE)
 
 A curated list of open source projects for aquarium automation, monitoring, and control systems.
 
@@ -22,7 +26,7 @@ A curated list of open source projects for aquarium automation, monitoring, and 
 
 ## Standardized Project Information
 
-To improve consistency and help users make informed decisions, all project entries in this list follow a [standardized format](PROJECT_TEMPLATE.md) that includes essential information like platform requirements, difficulty level, hardware requirements, and key features. This makes it easier to compare projects and understand what's involved before starting implementation.
+To improve consistency and help users make informed decisions, all project entries in this list follow a [standardized format](docs/PROJECT_TEMPLATE.md) that includes essential information like platform requirements, difficulty level, hardware requirements, and key features. This makes it easier to compare projects and understand what's involved before starting implementation.
 
 ## Quick Index by Function
 
@@ -42,7 +46,6 @@ To improve consistency and help users make informed decisions, all project entri
 
 ### Infrastructure
 - [Energy Management](#energy-management)
-- [3D Printing Resources](#3d-printing-resources)
 - [Hardware Projects](#hardware-projects)
 
 ### Specialized Tools & Utilities
@@ -52,87 +55,62 @@ To improve consistency and help users make informed decisions, all project entri
 
 ## AI/ML-Powered Solutions
 
-### [AI Fish Behavior Monitor](Search for "AI fish monitoring" repositories) ![GitHub stars](#) ![GitHub forks](#) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
-Open source computer vision system for monitoring fish health and behavior using AI algorithms.
-- **Hardware**: Raspberry Pi 4, Pi Camera Module, microSD card
-- **Key Features**: Fish activity tracking, disease detection, feeding pattern analysis, anomaly alerts.
+### [Smart Fish Tank Monitoring System](https://github.com/IT21179280/SMART-FISH-TANK-MONITORING-SYSTEM) ![GitHub stars](https://img.shields.io/github/stars/IT21179280/SMART-FISH-TANK-MONITORING-SYSTEM?style=social) ![GitHub forks](https://img.shields.io/github/forks/IT21179280/SMART-FISH-TANK-MONITORING-SYSTEM?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+IoT-based system using ESP32-CAM with custom-trained YOLOv8 models for fish species identification, pregnant fish detection, and automated environment control.
+- **Hardware**: ESP32, ESP32-CAM, sensors
+- **Key Features**: Fish species identification, pregnant fish detection, real-time monitoring, automated environment control, live camera feed.
 
-### [Deep Learning Water Quality Predictor](Search for "deep learning water quality" repositories) ![GitHub stars](#) ![GitHub forks](#) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-Machine learning model that predicts water parameter changes based on historical data and environmental factors.
-- **Hardware**: Compatible with standard sensor arrays, any single-board computer
-- **Key Features**: Predictive modeling, trend analysis, maintenance scheduling, parameter forecasting.
+### [Smart Aquarium IoT Analytics Platform](https://github.com/YasinduKaveesha/smart-aquarium-iot-analytics-platform) ![GitHub stars](https://img.shields.io/github/stars/YasinduKaveesha/smart-aquarium-iot-analytics-platform?style=social) ![GitHub forks](https://img.shields.io/github/forks/YasinduKaveesha/smart-aquarium-iot-analytics-platform?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+Adaptive AI-driven IoT monitoring platform with SARIMA forecasting, Isolation Forest anomaly detection, and fuzzy Water Quality Index scoring.
+- **Hardware**: ESP32, pH/TDS/turbidity/temperature sensors
+- **Key Features**: Predictive water quality modeling, anomaly detection, 24h forecasts, React dashboard, MQTT pipeline.
 
 ## Aquarium Lighting Control
 
-### [Smart LED Controller](Search for "smart aquarium LED controller" repositories) ![GitHub stars]( ![GitHub forks]( ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
-Open source controller for customizable aquarium LED lighting with spectrum control and photoperiod management.
-- **Hardware**: ESP32 microcontroller, MOSFET drivers, power supply (12V/24V)
-- **Key Features**: Dawn/dusk simulation, lunar cycle lighting, PAR control, spectrum tuning, mobile app integration.
+### [DeepGlow](https://github.com/kabroxiko/DeepGlow) ![GitHub stars](https://img.shields.io/github/stars/kabroxiko/DeepGlow?style=social) ![GitHub forks](https://img.shields.io/github/forks/kabroxiko/DeepGlow?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+Standalone ESP-IDF based aquarium LED controller for ESP32-family boards with real-time control and smooth transitions.
+- **Hardware**: ESP32-family board, LED drivers, power supply
+- **Key Features**: Real-time LED control, sunrise/sunset scheduling, embedded web UI, REST API, WebSocket updates, OTA updates, safety limits.
 
-### [Chromatic Aquarium Lighting System](Search for "chromatic aquarium lighting" repositories) ![GitHub stars]( ![GitHub forks]( ![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-red.svg)
-Advanced RGB LED controller with plant growth optimization algorithms.
-- **Hardware**: Arduino Mega, RGB LED strips, temperature sensors, photocells
-- **Key Features**: Photosynthesis optimization, color spectrum scheduling, energy efficiency, programmable intensity.
+### [AquaControl32](https://github.com/CelliesProjects/aquacontrol32-pio) ![GitHub stars](https://img.shields.io/github/stars/CelliesProjects/aquacontrol32-pio?style=social) ![GitHub forks](https://img.shields.io/github/forks/CelliesProjects/aquacontrol32-pio?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+5-channel LED aquarium controller with gradual sunrise/sunset simulation, moon phase cycle, and web interface.
+- **Hardware**: ESP32 with SD card slot, LED dimming board, optional DS18B20 sensor
+- **Key Features**: 5-channel PWM control, sunrise/sunset simulation, moon phase cycle, web interface, SD card storage.
 
 ## Aquascaping Tools
 
-### [Aquascape Layout Planner](Search for "aquascape planner" repositories) ![GitHub stars]( ![GitHub forks]( ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-Open source software for planning and designing aquarium layouts with 3D visualization.
+### [Maya's Aquarium Maker 3D](https://github.com/m4ym4y/mayas-aquarium-3d) ![GitHub stars](https://img.shields.io/github/stars/m4ym4y/mayas-aquarium-3d?style=social) ![GitHub forks](https://img.shields.io/github/forks/m4ym4y/mayas-aquarium-3d?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+Virtual fish tank editor built with Three.js and react-three-fiber for designing aquarium layouts in 3D.
 - **Hardware**: Standard computer system
-- **Key Features**: 3D layout visualization, plant placement guidance, hardscape arrangement, substrate planning.
+- **Key Features**: 3D layout editor, multiple fish types, plant placement, water shader, embeddable widget, undo/redo.
 
-### [Plant Growth Tracker](Search for "aquatic plant growth tracker" repositories) ![GitHub stars]( ![GitHub forks]( ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
-Open source tool for monitoring and tracking the growth of aquatic plants over time.
-- **Hardware**: Camera system, lighting for photography
-- **Key Features**: Growth rate analysis, photo documentation, nutrient correlation, pruning schedules.
+### [Aquarium Builder](https://github.com/randomnewb/aquarium-builder) ![GitHub stars](https://img.shields.io/github/stars/randomnewb/aquarium-builder?style=social) ![GitHub forks](https://img.shields.io/github/forks/randomnewb/aquarium-builder?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+Tool for hobbyists to plan and organize aquarium components — create, view, and modify tank setups before building.
+- **Hardware**: Standard computer system
+- **Key Features**: Component organization, tank viability checking, equipment planning, real-world setup mapping.
 
 ## Aquatic Plant Care Systems
 
-### [CO2 Injection Controller](Search for "CO2 injection controller" repositories) ![GitHub stars]( ![GitHub forks]( ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
-Open source controller for automated CO2 injection with pH monitoring and safety features.
-- **Hardware**: ESP32, pH sensor, solenoid valve, pressure regulator
-- **Key Features**: pH-based CO2 control, safety shutoff, night/day modes, pressure monitoring.
+### [ESP-aqua-CO2](https://github.com/Jbsco/ESP-aqua-CO2) ![GitHub stars](https://img.shields.io/github/stars/Jbsco/ESP-aqua-CO2?style=social) ![GitHub forks](https://img.shields.io/github/forks/Jbsco/ESP-aqua-CO2?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+Low-cost CO2 control system for automated aquariums using LilyGO T-Display-S3 ESP32, maintaining target pH levels.
+- **Hardware**: LilyGO T-Display-S3 ESP32, pH sensor, solenoid valve, CO2 regulator
+- **Key Features**: pH-based CO2 control, target pH maintenance, safety monitoring, display interface.
 
-### [Automated Fertilization System](Search for "automated fertilization" repositories) ![GitHub stars]( ![GitHub forks]( ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-Automated dosing system for liquid fertilizers based on plant growth cycles and water parameters.
-- **Hardware**: Peristaltic pumps, reservoirs, microcontroller, sensors
-- **Key Features**: Macro/micro-nutrient dosing, scheduling, water parameter correlation, safety interlocks.
-
-### [Plant Growth Monitoring System](Search for "aquatic plant monitoring" repositories) ![GitHub stars]( ![GitHub forks]( ![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-red.svg)
-System for monitoring plant health using imaging and environmental sensors.
-- **Hardware**: Camera module, light sensors, humidity sensors, microcontroller
-- **Key Features**: Growth rate analysis, health assessment, lighting optimization, automated reporting.
-
-### [Algae Prevention Controller](Search for "algae prevention" repositories) ![GitHub stars]( ![GitHub forks]( ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
-Automated system to prevent algae growth through environmental control and monitoring.
-- **Hardware**: Light sensors, UV sterilizer control, water circulation pumps, microcontroller
-- **Key Features**: Light control, UV sterilization scheduling, nutrient monitoring, automated response.
+### [DIY my Dose](https://github.com/diymoica/DmDose) ![GitHub stars](https://img.shields.io/github/stars/diymoica/DmDose?style=social) ![GitHub forks](https://img.shields.io/github/forks/diymoica/DmDose?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+Universal smart dosing controller for reef aquariums — controls up to 4 peristaltic pumps with Home Assistant + ESP32 (ESPHome).
+- **Hardware**: ESP32, 4 peristaltic pumps, Home Assistant
+- **Key Features**: Automatic dosing, precise calibration, safety watchdog, alerts, statistics, no cloud dependency.
 
 ## Biological Filtration Systems
 
-### [Biofilter Monitoring System](Search for "biofilter monitoring" repositories) ![GitHub stars]( ![GitHub forks]( ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
-System for monitoring the efficiency and health of biological filtration systems.
-- **Hardware**: Ammonia sensors, nitrite/nitrate sensors, flow sensors, microcontroller
-- **Key Features**: Nitrogen cycle monitoring, filter efficiency tracking, maintenance alerts, performance graphs.
-
-### [Beneficial Bacteria Cultivation Controller](Search for "beneficial bacteria" repositories) ![GitHub stars]( ![GitHub forks]( ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-Controller for optimizing conditions for beneficial bacteria growth in external reactors.
-- **Hardware**: Temperature sensors, oxygen sensors, pumps, reactor chamber
-- **Key Features**: Temperature control, oxygenation, flow regulation, growth optimization.
-
-### [Protein Skimmer Controller](Search for "protein skimmer controller" repositories) ![GitHub stars]( ![GitHub forks]( ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
-Automated controller for protein skimmers with monitoring and adjustment capabilities.
-- **Hardware**: Air pump controller, water flow sensors, bubble size sensors, microcontroller
-- **Key Features**: Air flow adjustment, bubble optimization, collection cup monitoring, performance tracking.
-
-### [UV Sterilization Automation](Search for "UV sterilization" repositories) ![GitHub stars]( ![GitHub forks]( ![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-red.svg)
-Automation system for UV sterilization with scheduling and safety features.
-- **Hardware**: UV lamp controller, water flow sensors, timer circuits, safety interlocks
-- **Key Features**: Scheduling, flow-based operation, lamp life tracking, safety shutoffs.
+### [THIR Aquarium Roll Filter](https://github.com/DeeEmm/Thir) ![GitHub stars](https://img.shields.io/github/stars/DeeEmm/Thir?style=social) ![GitHub forks](https://img.shields.io/github/forks/DeeEmm/Thir?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+Open source DIY automatic roll filter for mechanical filtration — build-it-yourself with laser-cut perspex and off-the-shelf filter media.
+- **Hardware**: Laser-cut perspex, drive motor, filter media roll, 3D printed parts
+- **Key Features**: Automatic filter media advance, DIY-friendly build, media source guide, DXG cut files included.
 
 ## Detailed Comparison Tables
 
-For comprehensive comparison tables across different categories, see [COMPARISON_TABLES.md](COMPARISON_TABLES.md).
+For comprehensive comparison tables across different categories, see [docs/COMPARISON_TABLES.md](docs/COMPARISON_TABLES.md).
 
 This document includes detailed comparisons of:
 - Comprehensive Controllers
@@ -152,47 +130,32 @@ This document includes detailed comparisons of:
 
 ## Emergency and Safety Systems
 
-### [Leak Detection System](Search for "aquarium leak detection" repositories) ![GitHub stars]( ![GitHub forks]( ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
-Open source system for detecting water leaks with automatic shutoff and notification capabilities.
-- **Hardware**: Water sensors, solenoid valves, microcontroller, alarms
-- **Key Features**: Automatic shutoff, mobile alerts, multiple sensor support, logging.
+### [ESPHome Water Leak Detector](https://github.com/mrahmadt/ESPHome-Water-Leak-Detector) ![GitHub stars](https://img.shields.io/github/stars/mrahmadt/ESPHome-Water-Leak-Detector?style=social) ![GitHub forks](https://img.shields.io/github/forks/mrahmadt/ESPHome-Water-Leak-Detector?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+DIY water leak detection system built with ESPHome and Home Assistant for detecting water leaks around aquariums.
+- **Hardware**: ESP32/ESP8266, water leak sensors, Home Assistant
+- **Key Features**: Leak detection, Home Assistant integration, mobile alerts, customizable sensitivity.
 
-### [Overflow Prevention System](Search for "aquarium overflow prevention" repositories) ![GitHub stars]( ![GitHub forks]( ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-System to prevent aquarium overflow with water level monitoring and pump control.
-- **Hardware**: Water level sensors, pump controllers, alarms, microcontroller
-- **Key Features**: Water level monitoring, automatic pump shutoff, predictive alerts, backup systems.
+### [AquariumController](https://github.com/disgustipated/AquariumController) ![GitHub stars](https://img.shields.io/github/stars/disgustipated/AquariumController?style=social) ![GitHub forks](https://img.shields.io/github/forks/disgustipated/AquariumController?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+ESP8266-based aquarium overflow prevention using ultrasonic sensors (JSN-SR04T) and DS18B20 temperature probe for water level and temperature monitoring.
+- **Hardware**: ESP8266 Feather Huzzah, JSN-SR04T ultrasonic sensors, DS18B20 temperature probe
+- **Key Features**: Water level monitoring, temperature monitoring, sump level monitoring, top-off reservoir monitoring.
 
-### [Power Outage Monitor](Search for "power outage monitor" repositories) ![GitHub stars]( ![GitHub forks]( ![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-red.svg)
-Monitor for detecting power outages and managing backup systems automatically.
-- **Hardware**: Power monitoring circuits, UPS integration, backup battery, microcontroller
-- **Key Features**: Power loss detection, backup system activation, mobile alerts, duration logging.
-
-### [Emergency Aeration System](Search for "emergency aeration" repositories) ![GitHub stars]( ![GitHub forks]( ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
-Automated emergency aeration system activated during power outages or low oxygen conditions.
-- **Hardware**: Oxygen sensors, backup air pumps, battery systems, microcontroller
-- **Key Features**: Low oxygen detection, automatic activation, battery backup, status monitoring.
+### [reefbeatEnergyBackup](https://github.com/Elwinmage/reefbeatEnergyBackup) ![GitHub stars](https://img.shields.io/github/stars/Elwinmage/reefbeatEnergyBackup?style=social) ![GitHub forks](https://img.shields.io/github/forks/Elwinmage/reefbeatEnergyBackup?style=social) ![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-red.svg)
+Control Reefbeat devices during power outages with automated backup system management.
+- **Hardware**: Reefbeat devices, power monitoring circuits
+- **Key Features**: Power outage detection, Reefbeat device control, backup automation.
 
 ## Energy Management
 
-### [Power Consumption Monitor](Search for "power consumption monitor" repositories) ![GitHub stars]( ![GitHub forks]( ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
-System for monitoring and managing power consumption of aquarium equipment.
-- **Hardware**: Power monitoring sensors, smart outlets, microcontroller, display
-- **Key Features**: Real-time monitoring, consumption logging, scheduling, optimization alerts.
+### [ESP32 Power Monitor](https://github.com/Maxim-szh/ESP32-Power-Monitor-WebServer) ![GitHub stars](https://img.shields.io/github/stars/Maxim-szh/ESP32-Power-Monitor-WebServer?style=social) ![GitHub forks](https://img.shields.io/github/forks/Maxim-szh/ESP32-Power-Monitor-WebServer?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+ESP32-based power monitoring using SCT-013 current sensors with real-time data visualization via web interface.
+- **Hardware**: ESP32, SCT-013-000 current sensors
+- **Key Features**: Real-time power consumption monitoring, device status tracking, web dashboard.
 
-### [Smart Power Strip](Search for "smart power strip aquarium" repositories) ![GitHub stars]( ![GitHub forks]( ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-Intelligent power strip with individual outlet control and monitoring.
-- **Hardware**: Smart outlets, microcontroller, WiFi module, power relays
-- **Key Features**: Individual outlet control, consumption monitoring, scheduling, remote control.
-
-### [Energy Efficient Automation](Search for "energy efficient aquarium" repositories) ![GitHub stars]( ![GitHub forks]( ![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-red.svg)
-Automation system designed to minimize energy consumption while maintaining optimal conditions.
-- **Hardware**: Various sensors, smart controllers, variable speed pumps
-- **Key Features**: Energy optimization, demand-based operation, efficiency reporting, scheduling.
-
-### [Solar Powered Aquarium System](Search for "solar powered aquarium" repositories) ![GitHub stars]( ![GitHub forks]( ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
-Complete aquarium system powered by solar panels with battery backup.
-- **Hardware**: Solar panels, charge controller, batteries, DC equipment, microcontroller
-- **Key Features**: Solar charging, battery management, DC equipment control, weather adaptation.
+### [Smart Aquarium V3.1](https://github.com/desiFish/Smart-Aquarium-V3.1) ![GitHub stars](https://img.shields.io/github/stars/desiFish/Smart-Aquarium-V3.1?style=social) ![GitHub forks](https://img.shields.io/github/forks/desiFish/Smart-Aquarium-V3.1?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+ESP8266-based aquarium controller for managing 4 relay outputs with manual, scheduled, timer, and toggle modes.
+- **Hardware**: ESP8266 NodeMCU, 4-channel relay module, DS1307/DS3231 RTC
+- **Key Features**: 4 relay control, multiple control modes, OTA updates, RESTful API, responsive web UI, NTP sync.
 
 ## Comprehensive Controllers
 
@@ -228,31 +191,19 @@ An open-source reef tank controller based on Raspberry Pi with modular design fo
 
 ## Feeding Automation
 
-### [Automated Fish Feeder](Search for "automated fish feeder" repositories) ![GitHub stars]( ![GitHub forks]( ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
-Open source automated fish feeding system with portion control and scheduling capabilities.
-- **Hardware**: Raspberry Pi, servo motor, food reservoir, 3D printed dispenser
-- **Key Features**: Scheduled feeding, portion control, remote activation, feeding history logging, multiple feeding zones.
+### [fishfeeder](https://github.com/ColoMAX/fishfeeder) ![GitHub stars](https://img.shields.io/github/stars/ColoMAX/fishfeeder?style=social) ![GitHub forks](https://img.shields.io/github/forks/ColoMAX/fishfeeder?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+Standalone automatic fish feeder based on ESP8266 with ESPHome, featuring 3D-printed Archimedes screw dispenser.
+- **Hardware**: ESP8266/ESP32, modified servo motor, 3D printed dispenser, vibration motor
+- **Key Features**: Scheduled feeding, portion control via Archimedes screw, Home Assistant integration, web interface, manual button control.
 
-### [Smart Feeding Robot](Search for "smart feeding robot" repositories) ![GitHub stars]( ![GitHub forks]( ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-Robotic fish feeder with AI-based portion adjustment based on fish presence and behavior.
-- **Hardware**: ESP32-CAM, stepper motor, food hopper, weight sensor
-- **Key Features**: Fish detection, behavioral analysis, adaptive portioning, mobile notifications, feeding schedule optimization.
-
-## 3D Printing Resources
-
-### [Aquarium Filter Media Designs](Search for "3D printed filter media" repositories) ![GitHub stars]( ![GitHub forks]( ![License: CC-BY-SA](https://img.shields.io/badge/License-CC--BY--SA-lightgrey.svg)
-Open source designs for 3D printed aquarium filter media with optimized flow patterns and surface area.
-- **Hardware**: 3D printer (any FDM/SLA printer), PLA/ABS/PETG filament/resin
-- **Key Features**: Optimized flow patterns, increased surface area, modular designs, customizable porosity.
-
-### [Custom Aquarium Equipment Mounts](Search for "aquarium equipment mounts" repositories) ![GitHub stars]( ![GitHub forks]( ![License: CC-BY-SA](https://img.shields.io/badge/License-CC--BY--SA-lightgrey.svg)
-Collection of 3D printable mounting solutions for aquarium equipment including sensors, pumps, and controllers.
-- **Hardware**: 3D printer, waterproof sealants, mounting hardware
-- **Key Features**: Sensor mounts, pump holders, cable management, adjustable positioning, waterproof designs.
+### [iotFeeder](https://github.com/reivaxy/iotFeeder) ![GitHub stars](https://img.shields.io/github/stars/reivaxy/iotFeeder?style=social) ![GitHub forks](https://img.shields.io/github/forks/reivaxy/iotFeeder?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+WiFi-enabled fish feeder using ESP8266 and stepper motor with notifications when empty or on power failure.
+- **Hardware**: ESP8266, stepper motor, OLED screen, 3D printed parts
+- **Key Features**: Stepper motor precision, food level detection, push notifications, Firebase logging, OTA updates, manual feed button.
 
 ## Getting Started with Aquarium Tech
 
-For comprehensive getting started guides organized by skill level, see [GETTING_STARTED.md](GETTING_STARTED.md).
+For comprehensive getting started guides organized by skill level, see [docs/GETTING_STARTED.md](docs/GETTING_STARTED.md).
 
 This document provides:
 - Beginner pathway (weeks 1-6)
@@ -306,7 +257,7 @@ OpenSprinkler Unified Firmware for OpenSprinkler, OpenSprinkler Pi, and Linux-ba
 - **Hardware**: OpenSprinkler hardware, Raspberry Pi, Linux systems
 - **Key Features**: Unified firmware for multiple platforms, sprinkler automation, timer controls, weather-based adjustments, community support.
 
-### [Reef Angel](https://reefangel.com/)
+### [Reef Angel](https://reefangel.com/) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
 Open-source aquarium controller built on the Arduino platform, designed for reef aquariums.
 - **Hardware**: Arduino-based controller, various sensors
 - **Key Features**: Real-time monitoring of pH, temperature, water level, customizable relay control, expandable modules, user-friendly interface.
@@ -323,7 +274,7 @@ Open source tank platform that includes implementations for ESP32, Raspberry Pi,
 
 ## Integration Guides
 
-For comprehensive integration guides and compatibility matrices, see [INTEGRATION_GUIDES.md](INTEGRATION_GUIDES.md).
+For comprehensive integration guides and compatibility matrices, see [docs/INTEGRATION_GUIDES.md](docs/INTEGRATION_GUIDES.md).
 
 This document includes:
 - Controller integration matrix
@@ -340,16 +291,6 @@ This document includes:
 Powerful mobile app for aquarists to maintain and monitor aquarium information.
 - **Platform**: iOS
 - **Features**: Centralized aquarium information, fish details tracking, water measurement logging, maintenance scheduling, health monitoring.
-
-### [Aquarium Manager](https://play.google.com/store/search?q=aquarium%20manager&c=apps)
-Free app for iOS and Android that centralizes all aquarium information.
-- **Platform**: iOS, Android
-- **Features**: Fish details and water measurements, maintenance logs, equipment tracking, reminder notifications.
-
-### [Smart Aquarium Mobile App](Search repositories for "smart aquarium mobile") ![License: Unspecified](https://img.shields.io/badge/License-Unspecified-lightgrey.svg)
-Phone app to monitor and control vitals of fish in a home aquarium via ESP32.
-- **Platform**: iOS, Android
-- **Features**: Real-time monitoring of aquarium parameters, remote control of equipment, data logging, alert notifications.
 
 ## Monitoring and Automation Systems
 
@@ -380,71 +321,47 @@ Core framework of openHAB - Contains core bundles of the openHAB runtime. Not a 
 
 ## Educational Resources
 
-### [Academic Papers on Aquarium Technology](https://scholar.google.com/scholar?q=aquarium+technology+automation)
-Peer-reviewed research papers exploring the intersection of technology and aquarium science.
-- **Content**: Studies on water quality monitoring systems, automated feeding efficiency, sensor accuracy, and environmental control systems.
-
-### [Advanced Educational Resources for Aquarium Technology](ADVANCED_EDUCATIONAL_RESOURCES.md)
+### [Advanced Educational Resources for Aquarium Technology](docs/ADVANCED_EDUCATIONAL_RESOURCES.md)
 An extensive collection of learning pathways, practical projects, technical reference materials, troubleshooting guides, safety resources, and community learning resources to deepen understanding of aquarium technology.
 - **Content**: Learning tracks from beginner to advanced, practical project ideas, technical reference materials, troubleshooting procedures, safety guidelines, and community resources.
 
-### [Aquarium Technology Learning Pathways](LEARNING_PATHWAYS.md)
+### [Aquarium Technology Learning Pathways](docs/LEARNING_PATHWAYS.md)
 Structured learning tracks designed to guide users from beginner to expert levels in aquarium technology.
 - **Content**: Subject-specific learning tracks, prerequisite knowledge mapping, skill progression ladders, and certification pathways.
 
-### [Research & Academic Resources](RESEARCH_ACADEMIA.md)
+### [Research & Academic Resources](docs/RESEARCH_ACADEMIA.md)
 Collection of academic papers, research institutions, scientific studies, and university projects related to aquarium technology.
 - **Content**: Academic papers, research institutions, scientific studies, university projects, and scientific methodologies.
 
-### [Community Resources](COMMUNITY_RESOURCES.md)
+### [Community Resources](docs/COMMUNITY_RESOURCES.md)
 Information about local meetups, maker spaces, educational institutions, and collaborative development efforts.
 - **Content**: Local meetups and groups, maker space projects, educational institution projects, collaborative development efforts.
 
 ## Enhanced Searchability Features
 
-### [Tagging System](TAGGING_SYSTEM.md)
+### [Tagging System](docs/TAGGING_SYSTEM.md)
 A comprehensive tagging system to categorize projects by multiple attributes for easier discovery.
 - **Features**: Multi-dimensional tags, keyword search, filter by platform, difficulty, function, and more.
 
-### [Filter Options](FILTER_OPTIONS.md)
+### [Filter Options](docs/FILTER_OPTIONS.md)
 Advanced filtering capabilities to narrow down projects based on specific requirements.
 - **Features**: Platform-based filtering, difficulty level, cost range, feature-based filters, compatibility options.
 
-### [Cross-Referencing Guide](CROSS_REFERENCING.md)
+### [Cross-Referencing Guide](docs/CROSS_REFERENCING.md)
 Systematic cross-referencing between related projects and concepts for comprehensive understanding.
 - **Features**: Related project suggestions, technology overlaps, integration possibilities, upgrade paths.
 
-### [Quick Comparison Tools](COMPARISON_TOOLS.md)
+### [Quick Comparison Tools](docs/COMPARISON_TOOLS.md)
 Tools for rapidly comparing multiple projects side-by-side based on key attributes.
 - **Features**: Side-by-side comparisons, feature matrices, decision trees, recommendation engines.
-
-### [Arduino Aquarium Automation Tutorials](https://www.arduino.cc/en/tutorial/homePage)
-Official Arduino tutorials including aquarium automation projects.
-- **Content**: Step-by-step guides, code examples, circuit diagrams, sensor integration techniques.
-
-### [Books on Aquarium Technology](https://www.goodreads.com/search?q=aquarium%20technology%20books)
-Essential reading for understanding the technical aspects of aquarium keeping and automation.
-- **Content**: Comprehensive guides on water chemistry, equipment selection, automation principles, and system design.
-
-### [Certification Programs in Aquatic Sciences](https://github.com/search?q=aquarium+certification+programshttps://www.asna-aquaria.org/certification/type=repositories)
-Professional development opportunities for those seeking formal credentials in aquatic sciences and aquarium management.
-- **Content**: Coursework in aquatic biology, water quality management, system design, and safety protocols.
-
-### [Home Assistant Aquarium Configuration Examples](https://community.home-assistant.io/search?q=aquarium%20automation)
-Community forum with examples of aquarium automation setups using Home Assistant.
-- **Content**: YAML configuration examples, integration guides, automation scripts, dashboard designs.
 
 ### [Open Source Aquarium Control System Guide](https://www.reef2reef.com/forums/aquarium-controllers.15/)
 Community discussion thread documenting the development of an open-source aquarium control system using Raspberry Pi and Arduino components.
 - **Content**: Hardware selection guides, wiring diagrams, programming tutorials, troubleshooting tips.
 
-### [Using Technology for Aquarium Maintenance: A Scientific Approach](TECH_FOR_AQUARIUM_MAINTENANCE.md)
+### [Using Technology for Aquarium Maintenance: A Scientific Approach](docs/TECH_FOR_AQUARIUM_MAINTENANCE.md)
 A comprehensive guide explaining how technology can be applied to aquarium maintenance from a scientific perspective, covering parameters to monitor, automation strategies, sensing technologies, and best practices.
 - **Content**: Water quality parameters, automation solutions, sensing technologies, data management, safety considerations, emerging technologies, and implementation best practices.
-
-### [Video Courses and Tutorials](https://www.youtube.com/results?search_query=aquarium+technology+tutorials)
-Visual learning resources covering various aspects of aquarium technology and automation.
-- **Content**: Step-by-step project builds, equipment reviews, troubleshooting guides, and expert interviews.
 
 ## Specialized Tools
 
@@ -468,10 +385,10 @@ Brewing Water Chemistry Calculator that helps users find the optimal mix of wate
 - **Hardware**: Standard computer system
 - **Key Features**: Water chemistry calculation, optimal water profile matching, salt mixing calculator, brewing-focused water analysis.
 
-### [Water Quality Analysis Tool](Search repositories for "water quality analyzer aquarium") ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
-Python-based tool for analyzing water quality parameters and trends in aquarium environments.
-- **Hardware**: Standard computer system
-- **Key Features**: Water parameter tracking, trend analysis, predictive modeling, report generation, API integration.
+### [Aquarium Tank Monitoring System](https://github.com/jsramesh1990/Aquarium-Tank-Monitoring) ![GitHub stars](https://img.shields.io/github/stars/jsramesh1990/Aquarium-Tank-Monitoring?style=social) ![GitHub forks](https://img.shields.io/github/forks/jsramesh1990/Aquarium-Tank-Monitoring?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+Multi-board embedded project for monitoring critical water parameters (temperature, pH, TDS) supporting Arduino UNO, Mega, ESP32, ESP8266, STM32, and Pi Pico.
+- **Hardware**: Arduino/ESP32/STM32/Pi Pico, pH/TDS/temperature sensors
+- **Key Features**: Multi-platform support, PlatformIO + Arduino CLI, Makefile build system, real-time serial monitoring, extensible IoT architecture.
 
 ### [aqua-simulation](https://github.com/ranjithrajv/aqua-simulation) ![GitHub stars](https://img.shields.io/github/stars/ranjithrajv/aqua-simulation?style=social) ![GitHub forks](https://img.shields.io/github/forks/ranjithrajv/aqua-simulation?style=social) ![License: Unspecified](https://img.shields.io/badge/License-Unspecified-lightgrey.svg)
 Aquarium Tank Simulator - A web-based tool that provides 3D visualization of aquarium tanks and calculates glass thickness recommendations based on tank dimensions.
@@ -480,46 +397,38 @@ Aquarium Tank Simulator - A web-based tool that provides 3D visualization of aqu
 
 ## Water Chemistry Management
 
-### [Automated Dosing System](Search for "automated dosing system" repositories) ![GitHub stars]( ![GitHub forks]( ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
-Open source automated dosing system for precise addition of chemicals and supplements to maintain water parameters.
-- **Hardware**: Peristaltic pumps, reservoirs, sensors, microcontroller
-- **Key Features**: Precise dosing, scheduling, water parameter correlation, safety interlocks.
+### [Open Dosing Pump](https://github.com/inventmarine/open-dosing-pump) ![GitHub stars](https://img.shields.io/github/stars/inventmarine/open-dosing-pump?style=social) ![GitHub forks](https://img.shields.io/github/forks/inventmarine/open-dosing-pump?style=social) ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
+Open source, DIY, easy-to-assemble peristaltic dosing pump for precise chemical addition — no soldering required, 4 pumps with Bluetooth or USB.
+- **Hardware**: 4 peristaltic pumps, Bluetooth/USB module, power supply
+- **Key Features**: 4-pump design, no-solder assembly, Bluetooth/USB communication, precise dosing, calibration support.
 
-### [pH Buffering System](Search for "pH buffering system" repositories) ![GitHub stars]( ![GitHub forks]( ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-System for maintaining stable pH levels through automated buffering agent addition.
-- **Hardware**: pH sensors, chemical pumps, reservoirs, microcontroller
-- **Key Features**: pH stabilization, buffering agent dosing, safety limits, monitoring.
-
-### [Alkalinity Management Tool](Search for "alkalinity management" repositories) ![GitHub stars]( ![GitHub forks]( ![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-red.svg)
-Open source tool for monitoring and managing alkalinity levels in marine aquariums.
-- **Hardware**: Alkalinity test kit integration, dosing pumps, sensors, microcontroller
-- **Key Features**: Alkalinity monitoring, Kalkwasser dosing, calcium correlation, automated correction.
-
-### [Nutrient Control System](Search for "nutrient control aquarium" repositories) ![GitHub stars]( ![GitHub forks]( ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
-System for monitoring and controlling nutrient levels to prevent algae growth and promote healthy conditions.
-- **Hardware**: Various sensors (nitrates, phosphates, etc.), dosing pumps, controllers
-- **Key Features**: Nutrient monitoring, phosphate reduction, nitrogen cycle management, automated responses.
-
-### [Reverse Osmosis Controller](Search for "reverse osmosis controller" repositories) ![GitHub stars]( ![GitHub forks]( ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-Controller for reverse osmosis water purification systems with monitoring and automation.
-- **Hardware**: RO system components, pressure sensors, flow meters, microcontroller
-- **Key Features**: Water quality monitoring, automated flushing, filter life tracking, pressure monitoring.
+### [Aquamonitor](https://github.com/aquamonitor/Aquamonitor) ![GitHub stars](https://img.shields.io/github/stars/aquamonitor/Aquamonitor?style=social) ![GitHub forks](https://img.shields.io/github/forks/aquamonitor/Aquamonitor?style=social) ![License: LGPL-3.0](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)
+Automated RO/DI auto top-off (ATO) and auto water change system for reef tanks using Raspberry Pi — under $200.
+- **Hardware**: Raspberry Pi, electrovalves, float switches, water level sensors
+- **Key Features**: Automated ATO refill, automatic water changes, leak detection, visual/LED/sound/mail/push alerts, corrective actions.
 
 ## Water Testing & Analysis Tools
 
-### [Digital Water Parameter Tracker](Search for "water parameter tracker" repositories) ![GitHub stars]( ![GitHub forks]( ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-Open source application for tracking and analyzing water parameters over time with graphing capabilities.
-- **Hardware**: Standard computer system or mobile device
-- **Key Features**: Parameter logging, trend analysis, chart generation, export functionality, mobile compatibility.
+### [Smart Fish Tank](https://github.com/Spenc3rB/Smart-Fish-Tank) ![GitHub stars](https://img.shields.io/github/stars/Spenc3rB/Smart-Fish-Tank?style=social) ![GitHub forks](https://img.shields.io/github/forks/Spenc3rB/Smart-Fish-Tank?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+ESP32-based environmental monitoring system for TDS, temperature, RGB LED control, stepper motor feeder, and email alerts.
+- **Hardware**: ESP32, TDS sensor, DS18B20 temperature sensor, stepper motor, RGB LED
+- **Key Features**: Real-time TDS/temperature monitoring, customizable threshold alerts, email notifications, RGB LED control, web interface.
 
-### [TDS and EC Monitor](Search for "TDS EC monitor" repositories) ![GitHub stars]( ![GitHub forks]( ![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)
-Open source total dissolved solids and electrical conductivity monitoring system with data logging.
-- **Hardware**: ESP32, TDS/EC sensor, display module
-- **Key Features**: Real-time TDS/EC measurement, data logging, calibration tools, threshold alerts.
+### [Web-Based Aquarium Automation](https://github.com/akhdanfarrosrenoldi/web-realtime-aquarium-automation) ![GitHub stars](https://img.shields.io/github/stars/akhdanfarrosrenoldi/web-realtime-aquarium-automation?style=social) ![GitHub forks](https://img.shields.io/github/forks/akhdanfarrosrenoldi/web-realtime-aquarium-automation?style=social) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+ESP32-based real-time aquarium monitoring system tracking temperature and TDS/EC with ThingSpeak integration.
+- **Hardware**: ESP32, analog TDS sensor, DS18B20 temperature sensor
+- **Key Features**: Real-time EC/TDS monitoring, temperature-compensated readings, ThingSpeak cloud logging, web dashboard.
+
+## Spread the Word
+
+- Share on [Twitter](https://twitter.com/intent/tweet?text=Awesome%20Aquarium%20Tech%20-%20Open%20source%20aquarium%20automation%20projects&url=https://github.com/ranjithrajv/awesome-aquarium-tech)
+- [Reddit r/aquariums](https://www.reddit.com/r/aquariums/)
+- [Reddit r/reeftank](https://www.reddit.com/r/ReefTank/)
+- [Hackaday](https://hackaday.io/submit)
 
 ## Contributing
 
-Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md). If you have an awesome project to add, feel free to open an issue or submit a pull request.
+Contributions are welcome! Please read the [contribution guidelines](docs/CONTRIBUTING.md). If you have an awesome project to add, please [open a project suggestion](https://github.com/ranjithrajv/awesome-aquarium-tech/issues/new?labels=project-suggestion&template=add_project.yml).
 
 ## License
 
@@ -528,4 +437,3 @@ This list is licensed under the [CC0 1.0 Universal](LICENSE).
 ## Related
 
 - [Awesome Home Assistant](https://github.com/frenck/awesome-home-assistant) - A curated list of awesome things related to Home Assistant
-- [Awesome IoT](https://github.com/phodal/awesome-iot) - A curated list of awesome Internet of Things projects

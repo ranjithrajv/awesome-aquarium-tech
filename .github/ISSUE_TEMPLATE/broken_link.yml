@@ -1,0 +1,29 @@
+name: Report Broken Link
+description: Report a broken or outdated link in the list
+title: "[Broken Link] "
+labels: [broken-link]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Affected Entry
+      description: Which project entry has the broken link?
+    validations:
+      required: true
+  - type: input
+    id: current_url
+    attributes:
+      label: Current URL
+      description: The URL that is currently in the README
+    validations:
+      required: true
+  - type: input
+    id: suggested_url
+    attributes:
+      label: Suggested URL (if known)
+      description: Updated URL if the project moved
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional Details
+      description: Any other context (e.g., error message, redirect destination)
