@@ -1,57 +1,34 @@
 # Awesome Aquarium Tech
-
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ranjithrajv/awesome-aquarium-tech/blob/main/docs/CONTRIBUTING.md)
 [![GitHub contributors](https://img.shields.io/github/contributors/ranjithrajv/awesome-aquarium-tech)](https://github.com/ranjithrajv/awesome-aquarium-tech/graphs/contributors)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ranjithrajv/awesome-aquarium-tech)](https://github.com/ranjithrajv/awesome-aquarium-tech/commits/main)
-[![License: CC0 1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](LICENSE)
 
 A curated list of open source projects for aquarium automation, monitoring, and control systems.
 
-## Table of Contents
+## Contents
 
-### By Function
-- [Comprehensive Control Systems](#comprehensive-controllers)
-- [Monitoring & Data Collection](#monitoring-and-automation-systems)
-- [Automated Control Systems](#comprehensive-controllers)
-- [Safety & Emergency Systems](#emergency-and-safety-systems)
-- [Water Quality Management](#water-chemistry-management)
-- [Life Support Systems](#aquarium-lighting-control)
-- [Infrastructure](#energy-management)
-- [Specialized Tools & Utilities](#specialized-tools)
-
-### By Category
-- [Educational Resources & Learning Pathways](#educational-resources)
+- [AI/ML-Powered Solutions](#aiml-powered-solutions)
+- [Aquarium Lighting Control](#aquarium-lighting-control)
+- [Aquascaping Tools](#aquascaping-tools)
+- [Aquatic Plant Care Systems](#aquatic-plant-care-systems)
+- [Biological Filtration Systems](#biological-filtration-systems)
+- [Comprehensive Controllers](#comprehensive-controllers)
+- [Educational Resources](#educational-resources)
+- [Emergency and Safety Systems](#emergency-and-safety-systems)
+- [Energy Management](#energy-management)
 - [Enhanced Searchability Features](#enhanced-searchability-features)
+- [Feeding Automation](#feeding-automation)
+- [Hardware Projects](#hardware-projects)
+- [Mobile Applications](#mobile-applications)
+- [Monitoring and Automation Systems](#monitoring-and-automation-systems)
+- [Specialized Tools](#specialized-tools)
+- [Water Chemistry Management](#water-chemistry-management)
+- [Water Testing & Analysis Tools](#water-testing--analysis-tools)
 
 ## Standardized Project Information
 
 To improve consistency and help users make informed decisions, all project entries in this list follow a [standardized format](docs/PROJECT_TEMPLATE.md) that includes essential information like platform requirements, difficulty level, hardware requirements, and key features. This makes it easier to compare projects and understand what's involved before starting implementation.
-
-## Quick Index by Function
-
-### Water Quality Management
-- [Water Chemistry Management](#water-chemistry-management)
-- [Biological Filtration Systems](#biological-filtration-systems)
-- [Water Testing & Analysis Tools](#water-testing-&-analysis-tools)
-- [Aquatic Plant Care Systems](#aquatic-plant-care-systems)
-
-### Life Support Systems
-- [Aquarium Lighting Control](#aquarium-lighting-control)
-- [Feeding Automation](#feeding-automation)
-- [Aquascaping Tools](#aquascaping-tools)
-
-### Safety & Emergency Systems
-- [Emergency and Safety Systems](#emergency-and-safety-systems)
-
-### Infrastructure
-- [Energy Management](#energy-management)
-- [Hardware Projects](#hardware-projects)
-
-### Specialized Tools & Utilities
-- [Specialized Tools](#specialized-tools)
-- [Mobile Applications](#mobile-applications)
-- [AI/ML-Powered Solutions](#ai/ml-powered-solutions)
 
 ## AI/ML-Powered Solutions
 
@@ -375,7 +352,7 @@ piRNA TE analysis tool - A Python-powered solution for piRNA sequence analysis t
 - **Hardware**: Standard computer system
 - **Key Features**: piRNA sequence analysis, transposable element identification, fish genomics research, Python-based analysis tools.
 
-### [HYDROS App Framework](Available through commercial vendors) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+### HYDROS App Framework (Available through commercial vendors) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 Open-source framework for connecting aquarium equipment to cloud services for remote monitoring.
 - **Hardware**: Various microcontrollers and sensors
 - **Key Features**: Cloud connectivity, remote monitoring and control, modular plugin architecture, data visualization tools.
@@ -430,10 +407,6 @@ ESP32-based real-time aquarium monitoring system tracking temperature and TDS/EC
 
 Contributions are welcome! Please read the [contribution guidelines](docs/CONTRIBUTING.md). If you have an awesome project to add, please [open a project suggestion](https://github.com/ranjithrajv/awesome-aquarium-tech/issues/new?labels=project-suggestion&template=add_project.yml).
 
-## License
-
-This list is licensed under the [CC0 1.0 Universal](LICENSE).
-
 ## Related
 
-- [Awesome Home Assistant](https://github.com/frenck/awesome-home-assistant) - A curated list of awesome things related to Home Assistant
+- [Awesome Home Assistant](https://github.com/frenck/awesome-home-assistant) - A curated list of awesome things related to Home Assistant.
