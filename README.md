@@ -1,5 +1,6 @@
 # Awesome Aquarium Tech
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
+
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ranjithrajv/awesome-aquarium-tech/blob/main/docs/CONTRIBUTING.md)
 [![GitHub contributors](https://img.shields.io/github/contributors/ranjithrajv/awesome-aquarium-tech)](https://github.com/ranjithrajv/awesome-aquarium-tech/graphs/contributors)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ranjithrajv/awesome-aquarium-tech)](https://github.com/ranjithrajv/awesome-aquarium-tech/commits/main)
@@ -406,6 +407,10 @@ ESP32-based real-time aquarium monitoring system tracking temperature and TDS/EC
 ## Contributing
 
 Contributions are welcome! Please read the [contribution guidelines](docs/CONTRIBUTING.md). If you have an awesome project to add, please [open a project suggestion](https://github.com/ranjithrajv/awesome-aquarium-tech/issues/new?labels=project-suggestion&template=add_project.yml).
+
+## License
+
+To the extent possible under law, the authors have waived all copyright and related or neighboring rights to this work.
 
 ## Related
 

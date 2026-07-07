@@ -11,7 +11,6 @@ This document provides information about local meetups, maker spaces, educationa
   - Activities: Technology presentations, project showcases, equipment swaps
   - Focus: Freshwater and marine technology
   - Contact: bayarea.aquarium.tech@gmail.com
-  - Website: https://bayareaaquariumtech.org
 
 - **Chicago Aquarium Technology Group** (Illinois, USA)
   - Meeting Schedule: First Sunday of each month
@@ -19,7 +18,6 @@ This document provides information about local meetups, maker spaces, educationa
   - Activities: Hands-on workshops, build sessions, guest speakers
   - Focus: DIY automation and monitoring
   - Contact: chicago.aquatech@gmail.com
-  - Website: https://chicagoaquariumtech.com
 
 - **London Aquatic Technology Society** (UK)
   - Meeting Schedule: Third Saturday of each month
@@ -27,7 +25,6 @@ This document provides information about local meetups, maker spaces, educationa
   - Activities: Project competitions, technical talks, vendor showcases
   - Focus: Advanced automation systems
   - Contact: info@londonaquatech.org
-  - Website: https://londonaquatech.org
 
 - **Sydney Aquarium Makers** (Australia)
   - Meeting Schedule: Monthly workshop series
@@ -35,7 +32,6 @@ This document provides information about local meetups, maker spaces, educationa
   - Activities: Build days, equipment reviews, group purchases
   - Focus: 3D printing and custom fabrication
   - Contact: sydney.makers.aqua@gmail.com
-  - Website: https://sydneyaquamakers.com
 
 ### Online Communities
 - **Reddit Communities**

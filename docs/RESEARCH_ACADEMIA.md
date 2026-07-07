@@ -58,7 +58,7 @@ This document compiles academic papers, research institutions, scientific studie
 - **University of Florida - Tropical Aquaculture Laboratory**
   - Focus: Sustainable aquaculture technology
   - Research Areas: Automated systems, water quality, nutrition
-  - Contact: https://fish.ufl.edu/research/
+  - Contact: https://fish.ufl.edu/
   - Notable Projects: Automated feeding trials, water treatment innovations
 
 - **University of Rhode Island - Graduate School of Oceanography**
