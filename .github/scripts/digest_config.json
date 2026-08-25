@@ -1,0 +1,15 @@
+{
+  "list_description": "Awesome Aquarium Tech curates hardware, firmware, software, monitoring tools, controllers, dosing systems, sensors, lighting, and open-source projects for aquariums, reef tanks, aquascaping, ponds, and aquaponics.",
+  "hn_queries": ["aquarium", "reef tank", "aquaponics", "aquarium monitor", "smart aquarium"],
+  "github_queries": ["aquarium controller", "aquaponics monitor", "reef tank automation", "aquarium sensor"],
+  "rss_feeds": [
+    "https://hackaday.com/blog/feed/",
+    "https://www.raspberrypi.com/news/feed/",
+    "https://blog.arduino.cc/feed/"
+  ],
+  "keywords": ["aquarium", "aquaponics", "reef tank", "fish tank", "aquascape", "hydroponics"],
+  "min_hn_points": 3,
+  "min_github_stars": 5,
+  "days_back": 14,
+  "max_llm_candidates": 25
+}
