@@ -94,8 +94,6 @@ This document includes detailed comparisons of:
 
 ## Energy Management
 
-- [ESP32 Power Monitor](https://github.com/Maxim-szh/ESP32-Power-Monitor-WebServer) - ESP32-based power monitoring using SCT-013 current sensors with real-time data visualization via web interface.
-
 - [Smart Aquarium V3.1](https://github.com/desiFish/Smart-Aquarium-V3.1) - ESP8266-based aquarium controller for managing 4 relay outputs with manual, scheduled, timer, and toggle modes.
 
 ## Comprehensive Controllers
