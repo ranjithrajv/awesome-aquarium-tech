@@ -27,6 +27,7 @@
   "bluesky_queries": ["reef tank", "aquarium controller"],
 
   "rss_feeds": [
+    "https://news.google.com/rss/search?q=%22reef+tank%22+OR+%22aquaponics%22&hl=en-US&gl=US&ceid=US:en",
     "https://hackaday.com/blog/feed/",
     "https://www.raspberrypi.com/news/feed/",
     "https://blog.arduino.cc/feed/"
