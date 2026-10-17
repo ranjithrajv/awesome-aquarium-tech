@@ -1,0 +1,36 @@
+{
+  "list_description": "Awesome Aquarium Tech curates hardware, firmware, software, monitoring tools, controllers, dosing systems, sensors, lighting, and open-source projects for aquariums, reef tanks, aquascaping, ponds, and aquaponics.",
+  "keywords": ["aquarium", "aquaponics", "reef tank", "fish tank", "aquascape", "hydroponics"],
+
+  "days_back": 14,
+  "max_llm_candidates": 25,
+  "max_per_source": 10,
+  "per_source_caps": { "Reddit": 6, "RSS": 8 },
+  "source_weights": { "RSS": 0.9 },
+  "half_life_days": 21,
+  "default_section": "Hardware Projects",
+
+  "hn_queries": ["aquarium", "reef tank", "aquaponics", "aquarium monitor", "smart aquarium"],
+  "min_hn_points": 3,
+
+  "github_queries": ["aquarium controller", "aquaponics monitor", "reef tank automation", "aquarium sensor"],
+  "github_topics": ["aquarium", "reef-tank", "aquaponics", "aquarium-controller"],
+  "min_github_stars": 5,
+
+  "reddit_subreddits": ["Aquariums", "ReefTank", "aquaponics", "PlantedTank"],
+
+  "arxiv_queries": ["all:\"aquaponics\""],
+
+  "mastodon_instances": ["fosstodon.org", "mastodon.social"],
+  "mastodon_tags": ["reeftank", "aquarium"],
+
+  "bluesky_queries": ["reef tank", "aquarium controller"],
+
+  "rss_feeds": [
+    "https://hackaday.com/blog/feed/",
+    "https://www.raspberrypi.com/news/feed/",
+    "https://blog.arduino.cc/feed/"
+  ],
+
+  "producthunt": true
+}
