@@ -1,4 +1,11 @@
 {
+  "https://bsky.app/profile/biolens.bsky.social/post/3my4qgjngug2w": {
+    "first_seen": "2026-10-19",
+    "last_score": 0.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Has anyone here found one in their reef tank? Tell us the story \ud83d\udc47Tag someone who thinks the ocean is safe."
+  },
   "https://bsky.app/profile/brosemitesam.bsky.social/post/3mxilnqqhoc2w": {
     "first_seen": "2026-10-17",
     "last_score": 0.0,
@@ -69,6 +76,13 @@
     "times_seen": 1,
     "title": "Big Stingray # ManilaOceanPark # Philippines # Aquarium"
   },
+  "https://fediscience.org/@astromateusz/117458110348159184": {
+    "first_seen": "2026-10-19",
+    "last_score": 1.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "shrimps! # shrimp # aquarium"
+  },
   "https://github.com/FrenzyExists/wallpapers": {
     "first_seen": "2026-10-17",
     "last_score": 77.9,
@@ -76,12 +90,47 @@
     "times_seen": 1,
     "title": "FrenzyExists/wallpapers"
   },
+  "https://github.com/MrSleeps/Juwel-HeliaLux-Home-Assistant-Custom-Component": {
+    "first_seen": "2026-10-19",
+    "last_score": 1.9,
+    "status": "new",
+    "times_seen": 1,
+    "title": "MrSleeps/Juwel-HeliaLux-Home-Assistant-Custom-Component"
+  },
   "https://github.com/NineteenFire/MrAqua": {
     "first_seen": "2026-10-17",
     "last_score": 3.1,
     "status": "new",
     "times_seen": 1,
     "title": "NineteenFire/MrAqua"
+  },
+  "https://github.com/Terkwood/prawnalith": {
+    "first_seen": "2026-10-19",
+    "last_score": 1.6,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Terkwood/prawnalith"
+  },
+  "https://github.com/aHagouel/IOT-Aquaponics-in-NYC": {
+    "first_seen": "2026-10-19",
+    "last_score": 1.7,
+    "status": "new",
+    "times_seen": 1,
+    "title": "aHagouel/IOT-Aquaponics-in-NYC"
+  },
+  "https://github.com/chvvkumar/apex": {
+    "first_seen": "2026-10-19",
+    "last_score": 1.7,
+    "status": "new",
+    "times_seen": 1,
+    "title": "chvvkumar/apex"
+  },
+  "https://github.com/codetiger/AquariumControl": {
+    "first_seen": "2026-10-19",
+    "last_score": 1.7,
+    "status": "new",
+    "times_seen": 1,
+    "title": "codetiger/AquariumControl"
   },
   "https://github.com/cxreiff/lifecycler": {
     "first_seen": "2026-10-17",
@@ -97,6 +146,13 @@
     "times_seen": 1,
     "title": "itchannel/apex-ha"
   },
+  "https://github.com/jmw5598/grow-system": {
+    "first_seen": "2026-10-19",
+    "last_score": 1.6,
+    "status": "new",
+    "times_seen": 1,
+    "title": "jmw5598/grow-system"
+  },
   "https://github.com/mathompl/AquaLed": {
     "first_seen": "2026-10-17",
     "last_score": 3.1,
@@ -111,12 +167,26 @@
     "times_seen": 1,
     "title": "mcaminiti/homeassistant"
   },
+  "https://github.com/mcclown/home-assistant-custom-components": {
+    "first_seen": "2026-10-19",
+    "last_score": 2.1,
+    "status": "new",
+    "times_seen": 1,
+    "title": "mcclown/home-assistant-custom-components"
+  },
   "https://github.com/rjsears/GardenPi": {
     "first_seen": "2026-10-17",
     "last_score": 30.6,
     "status": "new",
     "times_seen": 1,
     "title": "rjsears/GardenPi"
+  },
+  "https://github.com/tdragon/reef-pi-hass-custom": {
+    "first_seen": "2026-10-19",
+    "last_score": 1.8,
+    "status": "new",
+    "times_seen": 1,
+    "title": "tdragon/reef-pi-hass-custom"
   },
   "https://github.com/theyosh/TerrariumPI": {
     "first_seen": "2026-10-17",
@@ -202,12 +272,26 @@
     "times_seen": 1,
     "title": "Researchers build new hybrid aquaponics, vertical farming system - University of Hawaii System"
   },
+  "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MbGRURjdJdXBrNkpOUjhsMUVKYmVtWDJMT3NHV0ZUbUUtU3FhTHRQcEoweWZhSWtZRmtCaGVMeGdSVmU5WVNPVnhLQ0ZZZjF3YXhNS0FzSTlQdzEwamNCSGtHcjV1M1VLZ2xkeWRyeC0?oc=5": {
+    "first_seen": "2026-10-19",
+    "last_score": 4.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "USM and Lynn Meadows Discovery Center to Celebrate Ribbon Cutting of New Aquaponics Education Exhibit - The University o"
+  },
   "https://news.google.com/rss/articles/CBMid0FVX3lxTE5YZWpMMm92OE54T1RVQXB4Z1FfT1Bpd0hIWG81RDM1NHNMQ1E0X3hFNWQwMVg0alhVcmJQdzgtWFdzY3hYNkFReVZqODBGcFNsWTlNYmw2VDFLdGgzVDIzY1pPazl1S1FrX1E5Uk55SEd6ZGZWdUJB?oc=5": {
     "first_seen": "2026-10-17",
     "last_score": 4.0,
     "status": "new",
     "times_seen": 1,
     "title": "Building a Lava Lamp Reef Tank - Adafruit"
+  },
+  "https://news.google.com/rss/articles/CBMie0FVX3lxTFBoZ3paMDFaTEpIODdNaVVqSi1iVFBHMEhWajgyYk9PNElKMkVJcy1rRExneWFEazN6VVVPLXJZSlk0NWk1bmdWX3BNdnVocHEtYzY2MG80Z3BIWjY1WnlvUHJva0xyNmRzUVhJQnRqU1NPQ1NvRV82ZUtjOA?oc=5": {
+    "first_seen": "2026-10-19",
+    "last_score": 4.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "The UAE Aquaponics Market Size & Outlook, 2033 - Grand View Research"
   },
   "https://news.google.com/rss/articles/CBMifkFVX3lxTE9SNVBpYVNYajNlbmZxRC1uSEwwb2V3RE4zMTR2ek1UNFFIQXNqcjhOVzlxdFZ3XzhBem5iRGo3OHJ1dnRkRVpYM2xMY2NMN1M1Zkg3NS1LZzNCaFExSHh6SU83cFJ5cDcxQktIdWlsenkxcGMtbWFKT3E3RENXZw?oc=5": {
     "first_seen": "2026-10-17",
@@ -216,12 +300,26 @@
     "times_seen": 1,
     "title": "Growing Forward: Expanding Hydroponics to Aquaponics - New Jersey Education Association"
   },
+  "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcXZCNThtekdka3A3NTlQZkNMTGJWNFd4dkEwclVRZjdCMWx1cTNFVG1GaUdlYVF1WHNmSDZjMXRKNWUwVzhYSDV0bUVXdmVlOWV3MEw1X0JvaDI4TEU3MXJGcUVxMGw5dGdIcnFzUURUSjZqcFBYcWlfMkJvbEVBVF9BT2M2NGlE?oc=5": {
+    "first_seen": "2026-10-19",
+    "last_score": 4.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "From newsroom to aquaponics farm in South Africa - The Fish Site"
+  },
   "https://news.google.com/rss/articles/CBMijAFBVV95cUxPclRMajZiTEZWT1lrV2ZXRUp0NmFKaDZyTnhUc244bXZObXM5Y0hyaFFvMGFzaUpwM0lBMEJRYWRNVnluNFpwbFZUSWg1ZEcxSG4ydTh0cEtjUlZmbEZsOFZ5a1dBTFVsM2o3amZ4UWJUNXdzY0ZVYXRoSWJSOUVUTUF4QWRPaU5SYV9KQg?oc=5": {
     "first_seen": "2026-10-17",
     "last_score": 4.0,
     "status": "new",
     "times_seen": 1,
     "title": "Fish, plants and food security: Rowan On visits Rowan's aquaponics greenhouse - Rowan Today"
+  },
+  "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLXpPeEI1QUhvSlI5NXFMWTFVOVVNZm9jb3FLTDNMR053TXRjOGk3cWEwWE1kcFNYdFllYzZNS0EtLVNfZ3ZLVVR6VUVKSXpnNXVDZkRJcjJCZDBmT2lxbEVmVjFrSkEwX0ZSUEEweHlfcVI3MWhHNlFwS1FVZ3lCbi1HU1JxeFlyNHNmaTZCc0t1QQ?oc=5": {
+    "first_seen": "2026-10-19",
+    "last_score": 4.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Brown County High School wins grant to help install aquaponics system - Jacksonville Journal-Courier"
   },
   "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTWNfVzE3SlE3MHVPV1p2Qkg2ZXR2SFF6X3Y0LW9iQVpxdFRhRGt1N0E5aUtvYWFpVC1rNEt0NjhsS2hZRDJWbjlMMm5jRGZPb1BaQTdrem1USlFkT1hBQkNVRE05bjloTU5pOHZEQ1BLOFFHdEo0RHBicXNCS2J0VnExcTh6Q1FZajRTYkx6cmdzQmx1?oc=5": {
     "first_seen": "2026-10-17",
@@ -230,12 +328,40 @@
     "times_seen": 1,
     "title": "Evaluating crop growth between hydroponics and aquaponics with different light inputs - Frontiers"
   },
+  "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOTltZkZhTkpCSWV0cGlVRnhleGp0MDktVnlTY1NJb05ySWoyQlgtU1ZWQlBVRkx1V3M4WEFVYlhJSXA0R1ZxX2VYSmJ3MHNuc3ltekR3TWxILS1leHNRaHVpN3AwTVNNNmFEbkQ3Smdjcm04Z3JUdnhVTFA1YTJPUlZJNnVDbmhmMlBQMzdDRjFCOFA5?oc=5": {
+    "first_seen": "2026-10-19",
+    "last_score": 4.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Aquaponics & RAS for High-Value Fish Market Size, 2026-2035 Forecast - Global Market Insights Inc."
+  },
   "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeU1iNi1HaUliZndRN3BUemFjdl9fT3lrNDhGSE9ETWRyNl8wcFMzbjFNaUVORmFZM1daM05VeHd6UG14TFlHRDRNMVFhVFJ6Mnc5LWZURGVVeG5BQ3ppby1wOTVRNjlSbkJpTGtVMGs5bUFjZkNBN1o2cU93Ni0zbGVVZmFkT1p6S1VMZ3h5aWNNTzBkeVhuanV5cw?oc=5": {
     "first_seen": "2026-10-17",
     "last_score": 4.0,
     "status": "new",
     "times_seen": 1,
     "title": "Forever Young Aquaponics Facility Ribbon Cutting Ceremony - Clayton County"
+  },
+  "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTGNhT0F6RXpoVHJ0Z21LUFNvZlh6ZWc1RWE5ekE3N1ZZUm5wSjJzNFhzRnFaT0J3aXdGZWlaaUF6cEdiRkhnYjdJeUZlQ2J2aTdqQ05lWGJWYTVfZklDUEJWS2NHOTd6S0h1NUpnN0dWYldvM0F4bURfRDVsRWNxU0g0Y2tBN2JvSlJ2OUozMGhGZFZ4WndGUGYzYw?oc=5": {
+    "first_seen": "2026-10-19",
+    "last_score": 4.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Youth Challenge Aquaponics Team \u2013 N\u0101 Kula Alaka\u02bbi - Hawaii department of defense (.gov)"
+  },
+  "https://news.google.com/rss/articles/CBMimwJBVV95cUxQRnBsTFlrRklGcVRzcm9zb3NmNUx1N1RDOHk2dHcyWnc5VG9sRVY3QTVwQUJ5ejZzQWdST19oZGl5NUtUMENaNXR5RWZfSE9jNlBCZXpqb2x6VGUxalRnUExmaUxiTEt6TjlpcGxONGUwQjBLMFQyVTFRY0NnMGZOcWlrbGljZ1VZcUpobEM2SEtMTUY4UWJoYnRnY3prQnFNS3J1SnJtRHh0cHg4N1BxRHhQSnJLSmdKR0hqWVFrZlVxX0FwQ3B4Wjl6blBWalBZamlxLWNXdjdMWkEtSnZtck1tZDlqT0RHSjhUZDBtTUhWVjNuMEZZd1lfeVN5VTU4UTFyVGxnWnIxZlpBb0dycHhFOHB5ejRfVmk0?oc=5": {
+    "first_seen": "2026-10-19",
+    "last_score": 4.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Aquaponics Research Group, led by Dr. Paula Turkon, grows and gives away flowers for Valentine's Day! - Ithaca College"
+  },
+  "https://news.google.com/rss/articles/CBMingFBVV95cUxQOURQazJ1YTh6MUpDYjVVQkE5QlZDR1RQUWZ6bVJhMGJCREhUcFZlZk5CZEFKckRTYTlaMWU2NklsakZ6T0F3ZHZuNV94STE2V3NYVjV5NXlCM1dONlo5aWtnVlkxQnRwNTF4Mk5sWlQxVnd3SnpWdU5fVFhlbTN0RXh4OFlsSm55clJTRFdXVVpLRjBrcnNLM2l2SE5SZw?oc=5": {
+    "first_seen": "2026-10-19",
+    "last_score": 4.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Aquaponics paves the future for cultural crops and food sovereignty - MVSKOKE Media"
   },
   "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNjZwd3FYeEdLdGptUVRFZTAyM0QzZm03cklDVDJUMjE3SXlrdU1SMlNfVy00dWs2WG5jVXltVHl1bXhXNl9BYXRrc1ZBUFZYVHl1ZGFxOWp2VVJybnRUUXA2TDNKTnZPN2VTcVAxd05jU19DRGdkVzhGY2RjNzhScVZ4LUk2Zlo3d0N1VzRadnZqLTlweExCcjU0TlRVWFdiOEE?oc=5": {
     "first_seen": "2026-10-17",
@@ -307,6 +433,48 @@
     "times_seen": 1,
     "title": "I think I don't know what I'm doing (16 gal / 60 l)"
   },
+  "https://reddit.com/r/Aquariums/comments/1x9eu8o/im_back_with_an_update_of_my_bfs_home_aquarium_4": {
+    "first_seen": "2026-10-19",
+    "last_score": 2.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "I\u2019m back with an update of my bf\u2019s home aquarium - 4 mos in"
+  },
+  "https://reddit.com/r/Aquariums/comments/1x9mxlz/have_an_aquariumrelated_question_ask_here_weekly": {
+    "first_seen": "2026-10-19",
+    "last_score": 2.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Have an Aquarium-related question? Ask here! [Weekly Question/Help/General Discussion]"
+  },
+  "https://reddit.com/r/Aquariums/comments/1x9nxcl/driftwood_still_wont_sink_after_3_months_boiling": {
+    "first_seen": "2026-10-19",
+    "last_score": 2.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Driftwood STILL won\u2019t sink after 3 months, boiling, and weighing it down. What else can I try?"
+  },
+  "https://reddit.com/r/ReefTank/comments/1x96t72/110_gallon_jam_packed_reef_tank": {
+    "first_seen": "2026-10-19",
+    "last_score": 4.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "110 Gallon Jam Packed Reef Tank!"
+  },
+  "https://reddit.com/r/ReefTank/comments/1x9fsv7/my_first_reef_tank_is_now_5_months_old": {
+    "first_seen": "2026-10-19",
+    "last_score": 2.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "My first reef tank is now 5 months old!"
+  },
+  "https://reddit.com/r/ReefTank/comments/1x9gmqs/this_is_my_60g_macroalgae_aquarium": {
+    "first_seen": "2026-10-19",
+    "last_score": 2.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "This is my 60g Macroalgae Aquarium"
+  },
   "https://social.linux.pizza/@realmurphy/117450752392754749": {
     "first_seen": "2026-10-17",
     "last_score": 0.0,
@@ -348,5 +516,12 @@
     "status": "new",
     "times_seen": 1,
     "title": "Aquariums: L\u00e0 n\u00f3 s\u1ebd \u0111\u1eb9p l\u00ean \u0111\u01b0\u1ee3c h\u00f4ng m\u1ecdi ng\u01b0\u1eddi? # aquarium # thuysinh https://www. flakefood.com/925983/aquariums -la-n"
+  },
+  "https://vive.im/@flakefood/117456167479266400": {
+    "first_seen": "2026-10-19",
+    "last_score": 0.0,
+    "status": "new",
+    "times_seen": 1,
+    "title": "Aquariums: Dibilangin gak percaya # akuariummini # aquariumairterjun # aquarium https://www. flakefood.com/926040/aquari"
   }
 }
